@@ -1,0 +1,18 @@
+---
+layout: post
+title:  A Test Post
+date:   2016-08-28
+cover:  cover.jpg
+---
+My first test post is a boring post about nothing.
+
+{% highlight C %}
+#include <stdio.h>
+void main() {
+	printf("Hello world\n");
+}
+{% endhighlight %}
+
+Check out my [linkedin page][linkedin] for more about my professional life.
+
+[linkedin]: https://www.linkedin.com/in/ezrasavard

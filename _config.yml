@@ -1,0 +1,28 @@
+title: Ezra Savard
+email: ezra@ezrasavard.com
+description: > # this means to ignore newlines until "baseurl:"
+    An idea dump from an engineer who likes coffee, tinkering and weightlifting.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.ezrasavard.com" # the base hostname & protocol for your site
+github:  "http://github.com/ezrasavard"
+linkedin: "http://linkedin.com/in/ezrasavard"
+highlights: pygments
+
+# Build settings
+markdown: kramdown
+excerpt_separator: "<!--more-->"
+cover: "media/moustache.svg"
+
+defaults:
+    scope:
+        path: ""
+        type: "posts"
+    values:
+        author: "Ezra Savard"
+        cover: "cover.jpg"
+    scope:
+        path: ""
+        type: "pages"
+    values:
+        author: "Ezra Savard"
+        cover: "cover.jpg"
