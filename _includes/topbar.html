@@ -1,14 +1,14 @@
 <nav class="fullscreen-nav">
 
     {% if page.cover %}
-    	<a href="/"><img id="logo" src={{ page.cover }}></a>
+    	<a href="{{ site.baseurl }}/"><img id="logo" src="{{ page.cover }}"></a>
     {% else %}
-        <a href="/"><img id="logo" src={{ site.cover }}></a>
+        <a href="{{ site.baseurl }}/"><img id="logo" src="{{ site.cover }}"></a>
     {% endif %}
 
 
     <div>
-        <a href="/"><h1 class="title">Hi, I'm Ezra Savard</h1></a>
+        <a href="{{ site.baseurl }}/"><h1 class="title">Hi, I'm Ezra Savard</h1></a>
         <h2 class="tagline">
             <p>{{ site.description }}</p>
             <!--
@@ -18,19 +18,15 @@
         </h2>
         <ul class="nav-menu">
             <li>
-                <a href="/about">About</a>
-                <span class="separator">&bull;</span>
-            </li>
-            <li>
-                <a href="/projects">Projects</a>
-                <span class="separator">&bull;</span>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/ezrasavard">LinkedIn</a>
+                <a href="{{ site.baseurl }}/projects">Projects</a>
                 <span class="separator">&bull;</span>
             </li>
             <li>
                 <a href="https://www.github.com/ezrasavard">GitHub</a>
+                <span class="separator">&bull;</span>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/ezrasavard">LinkedIn</a>
             </li>
         </ul>
     </div>

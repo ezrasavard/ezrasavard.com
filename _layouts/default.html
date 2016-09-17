@@ -14,7 +14,12 @@
 		<main>
 			
 			{{ content }}
-			
+		
+			{% if page.url != site.baseurl %}
+				<div class="divider"></div>
+				<a href="{{ site.baseurl }}/">Home</a>
+			{% endif %}
+	    	
 		</main>
 		
 		{% include footer.html %}
