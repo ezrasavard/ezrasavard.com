@@ -1,9 +1,10 @@
-<ul class="posts-list">
+<h1>Recent Posts</h1>
     {% for post in site.posts %}
-        <li class="post-link">
+        {% if forloop.index0 != 0 %}
+            <div class="divider"></div>
+        {% endif %}
             <a href="{{ post.url | prepend: site.baseurl }}"><h1 class="title">{{ post.title }}</h1></a>
             <h1 class="date">{{ post.date | date_to_string }}</h1>
-            <div class="divider"></div>
             <div class="preview-photo-container">
                 <a  href="{{ post.url | prepend: site.baseurl }}">
                 {% if post.cover %}
@@ -11,11 +12,9 @@
                 {% else %}
                     <img src="{{ site.cover }}">
                 {% endif %}
-            </a>
+                </a>
+            </div>
             {% if post.excerpt %}
                 <p>{{ post.excerpt }}</p>
             {% endif %}
-            </div>
-        </li>
     {% endfor %}
-</ul>

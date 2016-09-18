@@ -1,33 +1,24 @@
-<nav class="fullscreen-nav">
-
-    {% if page.cover %}
-    	<a href="{{ site.baseurl }}/"><img id="logo" src="{{ page.cover }}"></a>
-    {% else %}
-        <a href="{{ site.baseurl }}/"><img id="logo" src="{{ site.cover }}"></a>
-    {% endif %}
-
-
-    <div>
-        <a href="{{ site.baseurl }}/"><h1 class="title">Hi, I'm Ezra Savard</h1></a>
-        <h2 class="tagline">
-            <p>{{ site.description }}</p>
-            <!--
-            <p>I work on the firmware and electrical engineering team at <a href='http://www.zaber.com'>Zaber Technologies</a> in Vancouver.</p>
-            <p>Outside of work, I enjoy spending my time drinking coffee, tinkering and lifting weights.</p>
-            -->
-        </h2>
-        <ul class="nav-menu">
-            <li>
-                <a href="{{ site.baseurl }}/projects">Projects</a>
-                <span class="separator">&bull;</span>
-            </li>
-            <li>
-                <a href="https://www.github.com/ezrasavard">GitHub</a>
-                <span class="separator">&bull;</span>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/ezrasavard">LinkedIn</a>
-            </li>
-        </ul>
+<div class="topbar">
+    <div class="image-box">
+        {% if page.cover %}
+        	<a href="{{ site.baseurl }}/"><img src="{{ page.cover }}"></a>
+        {% else %}
+            <a href="{{ site.baseurl }}/"><img src="{{ site.cover }}"></a>
+        {% endif %}
+        <container class="text-overlay">
+            <a href="{{ site.baseurl }}/"><h1 class="title">Hi, I'm Ezra Savard</h1></a><br>
+            <h1 class="tagline">{{ site.description }}</h1>
+        </container>
     </div>
-</nav>
+    
+    <nav>
+        <a href="{{ site.baseurl }}/projects">Projects</a>
+        <span class="separator">&bull;</span>
+        <a href="https://www.github.com/ezrasavard">GitHub</a>
+        <span class="separator">&bull;</span>
+        <a href="https://www.linkedin.com/in/ezrasavard">LinkedIn</a>
+    </nav>
+</div>
+
+
+

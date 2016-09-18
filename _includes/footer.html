@@ -1,2 +1,7 @@
-<div class="divider"></div>
-<p>&copy; 2016 Ezra Savard</p>
+<footer>
+    {% if page.url != site.baseurl %}
+        <a href="{{ site.baseurl }}/">Home</a>
+    {% endif %}
+    <div class="divider"></div>
+    <p>&copy; 2016 Ezra Savard</p>
+</footer>
