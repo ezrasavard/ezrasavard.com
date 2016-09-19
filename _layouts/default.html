@@ -12,6 +12,9 @@
 		{% include topbar.html %}
 		
 		<main>
+			{% if page.top-text %}
+    			<h1 class="top-text">{{ page.top-text }}</h1>
+			{% endif %}
 			
 			{{ content }}
 	    	

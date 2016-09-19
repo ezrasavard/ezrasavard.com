@@ -1,20 +1,25 @@
 /* Define colors */
+
+/* Text colors */
 $highlight-color: #c86838;
-//$normal-color: #787878;
-$light-color: #8a8a8a;
-$dark-color: #1a1a1a;
-$normal-color: #4a4a4a;
 $lightest-color: #cccccc;
+$light-color: #8a8a8a;
+$normal-color: #4a4a4a;
+$dark-color: #1a1a1a;
 
-$column-width: 600px;
-$column-width-mobile: 98%;
-$column-width-trigger: 1.04*$column-width;
-
+/* Background colors */
 $bg-color: #efefef;
 $bg-color-dark-backup: rgb(0,0,0);
-$bg-color-dark: rgba(0,0,0,.7);
+$bg-color-dark: rgba(0,0,0,.75);
 
-/* General font settings & stuff */
+/* Dimensions for responsive elements */
+$column-width: 600px;
+$column-padding: 30px;
+//$column-width-mobile: 94%;
+$column-width-trigger: $column-width + 2*$column-padding;
+
+$cover-image-height: 240px;
+$cover-image-top-padding: 6px;
 
 // force browsers to use same margins/padding
 * { 
@@ -24,6 +29,7 @@ $bg-color-dark: rgba(0,0,0,.7);
 
 body {
   color: #4a4a4a;
+  line-height: 1.8em;
   background-color: $bg-color;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 400;
@@ -34,35 +40,12 @@ body {
   margin: 0px;
 }
 
-/* Common Elements */
-
-h1 {
-  color: $dark-color;
-  margin-top: 15px 0px 10px;
-  padding: 6px 6px 6px 6px;
-  font-size: 24px;
-  &.date {
-    font-family: Monaco, "Courier New", monospace;
-    color: $light-color;
-    margin: 6px 0px 15px;
-    font-size: 18px;
-  }
-  &.tagline {
-    color: $light-color;
-    padding: 6px 6px 6px 6px;
-    font-size: 18px;
-  }
+// the "clearfix hack" in a minimal form
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
-a {
-  color: $highlight-color;
-  text-decoration: none;
-  &:hover,
-  &:focus, {
-    border-bottom: 1px dashed #555;
-  }
-}
-
 
 .divider {
   // accommodate different browsers...
@@ -78,16 +61,55 @@ a {
 main {
   width: $column-width;
   margin: 10px auto;
+  p {
+    margin-bottom: 15px;
+  }
   @media (max-width: $column-width-trigger) {
-    width: $column-width-mobile;
+    width: auto;
+    padding-left: $column-padding;
+    padding-right: $column-padding;
+  }
+  .image-box {
+    position: relative;
+    background: inherit;
   }
   img {
-    display: block;
     margin: 25px auto;
     max-width: $column-width;
     @media (max-width: $column-width-trigger) {
-      max-width: $column-width-mobile;
+      max-width: 100%;
     }
+  }
+  a {
+    color: $highlight-color;
+    text-decoration: none;
+    &:hover,
+    &:focus, {
+      border-bottom: 1px dashed #555;
+    }
+  }
+  h1 {
+    color: $dark-color;
+    margin: 18px 0px 10px;
+    padding: 6px 0px 6px 0px;
+    font-size: 24px;
+    &.top-text {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 18px;
+      margin-top: 30px;
+    }
+    &.date {
+      font-family: Monaco, "Courier New", monospace;
+      color: $normal-color;
+      margin: 6px 0px 15px;
+      font-size: 18px;
+    }
+  }
+  h2 {
+    color: $normal-color;
+    margin: 10px 0px 6px;
+    font-size: 18px;
   }
 }
 
@@ -98,46 +120,30 @@ footer {
 }
 
 .topbar {
-  //color: $light-color;
   background: $bg-color-dark-backup;
   background: $bg-color-dark;
   display: block;
-  margin: 0px auto 32px;
-  height: 15%;
+  margin: 0px auto 20px;
   max-width: 1.5*$column-width;
-  h1 {
-    display: inline-block;
-    color: $lightest-color;
-    background: $bg-color-dark-backup; /* fallback color */
-    background: $bg-color-dark;
-    margin: 4px;
-    position: relative;
-    visibility: visible;
-  }
   .image-box {
     position: relative;
     background: inherit;
-    .text-overlay {
-      position: absolute;
-      top: 40%;
-      left: 40%;
-      max-width: 50%;
-      visibility: hidden;
-      transform: translate(0, -35%); // it moves while it shrinks!
-    }
+    max-height: $cover-image-height + $cover-image-top-padding;
+    overflow: hidden;
+    transition-duration: .5s;
     img {
-      display: inline-block;
-      max-width: 100%;
-      padding-top: 8px;
-      opacity: .6;
+      min-height: $cover-image-height;
+      width: 1.5*$column-width;
+      padding-top: $cover-image-top-padding;
     }
     @media (max-width: $column-width-trigger) {
-      display: none;
+      max-height: 0;
     }
   }
   nav {
     background: inherit;
     padding: 6px 0px 6px;
+    margin-bottom: 30px;
     font-size: 18px;
     text-align: center;
     @media (max-width: $column-width-trigger) {
@@ -146,10 +152,55 @@ footer {
   }
   a {
     color: $lightest-color;
+    text-decoration: none;
     &:hover,
     &:focus, {
       color: $highlight-color;
       border: none;
+    }
+  }
+  .separator {
+    color: $light-color;
+  }
+  .mobile-topbar {
+    display: none;
+    background: inherit;
+    text-align: center;
+    h1 {
+      color: $lightest-color;
+      padding-top: 8px;
+      font-size: 24px;
+      display: inline-block;
+
+    }
+    @media (max-width: $column-width-trigger) {
+      display: block;
+    }
+  }
+}
+
+.text-overlay {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  max-width: 60%;
+  visibility: hidden;
+  transform: translate(0, -35%); // it moves while it shrinks!
+  @media (max-width: $column-width-trigger) {
+    max-width: 80%;
+  }
+  h1 {
+    background: $bg-color-dark-backup; /* fallback color */
+    background: $bg-color-dark;
+    position: relative;
+    visibility: visible;
+    display: inline-block;
+    color: $lightest-color;
+    margin: 6px 4px 0px 4px;
+    padding: 6px 6px 6px 6px;
+    font-size: 24px;
+    &.tagline {
+      font-size: 18px;
     }
   }
 }
