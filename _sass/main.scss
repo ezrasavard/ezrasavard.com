@@ -1,7 +1,5 @@
-/* Define colors */
-
 /* Text colors */
-$highlight-color: #c86838;
+$highlight-color: #f87808;
 $lightest-color: #cccccc;
 $light-color: #8a8a8a;
 $normal-color: #4a4a4a;
@@ -12,24 +10,21 @@ $bg-color: #efefef;
 $bg-color-dark-backup: rgb(0,0,0);
 $bg-color-dark: rgba(0,0,0,.75);
 
-/* Dimensions for responsive elements */
+/* Dimensions */
 $column-width: 600px;
 $column-padding: 30px;
-//$column-width-mobile: 94%;
 $column-width-trigger: $column-width + 2*$column-padding;
-
 $cover-image-height: 240px;
 $cover-image-top-padding: 6px;
 
-// force browsers to use same margins/padding
-* { 
+/* Common Elements */
+* { // force browsers to use same margins/padding
   margin: 0;
   padding: 0;
 }
 
 body {
-  color: #4a4a4a;
-  line-height: 1.8em;
+  line-height: 28px;
   background-color: $bg-color;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 400;
@@ -40,45 +35,71 @@ body {
   margin: 0px;
 }
 
-// the "clearfix hack" in a minimal form
-.group:after {
+.group:after { // the "clearfix hack" in a minimal form
   content: "";
   display: table;
   clear: both;
 }
 
-.divider {
-  // accommodate different browsers...
-  background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop($bg-color-dark),to(rgba(255,255,255,0)));
+.divider {  // accommodate different browsers
   background: -webkit-linear-gradient(left,rgba(255,255,255,0),$bg-color-dark,rgba(255,255,255,0));
   background: linear-gradient(to right,rgba(255,255,255,0),$bg-color-dark,rgba(255,255,255,0));
   height: 1px;
-  margin: 2em 0;
+  margin: 32px 0;
 }
 
-/* Major Blocks */
+footer {
+  margin: 30px 0 10px;
+  text-align: center;
+  color: $light-color;
+  .divider {
+    margin: 10px 0 16px;
+  }
+}
 
+h1 {
+  color: $dark-color;
+  margin: 18px 0px 10px;
+  padding: 6px 0px 6px 0px;
+  font-size: 24px;
+}
+
+.top-text {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 18px;
+  margin-top: 30px;
+}
+
+.date {
+    font-family: Monaco, "Courier New", monospace;
+    color: $normal-color;
+    margin: 6px 0px 15px;
+    font-size: 18px;
+}
+
+h2 {
+  color: $normal-color;
+  margin: 10px 0px 6px;
+  font-size: 18px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Main Block */
 main {
   width: $column-width;
   margin: 10px auto;
-  p {
-    margin-bottom: 15px;
-  }
   @media (max-width: $column-width-trigger) {
     width: auto;
     padding-left: $column-padding;
     padding-right: $column-padding;
   }
-  .image-box {
-    position: relative;
-    background: inherit;
-  }
   img {
     margin: 25px auto;
-    max-width: $column-width;
-    @media (max-width: $column-width-trigger) {
-      max-width: 100%;
-    }
+    max-width: 100%;
   }
   a {
     color: $highlight-color;
@@ -88,66 +109,22 @@ main {
       border-bottom: 1px dashed #555;
     }
   }
-  h1 {
-    color: $dark-color;
-    margin: 18px 0px 10px;
-    padding: 6px 0px 6px 0px;
-    font-size: 24px;
-    &.top-text {
-      text-align: center;
-      font-size: 28px;
-      margin-bottom: 18px;
-      margin-top: 30px;
-    }
-    &.date {
-      font-family: Monaco, "Courier New", monospace;
-      color: $normal-color;
-      margin: 6px 0px 15px;
-      font-size: 18px;
-    }
-  }
-  h2 {
-    color: $normal-color;
-    margin: 10px 0px 6px;
-    font-size: 18px;
-  }
 }
 
-footer {
-  margin-top: 2em;
-  text-align: center;
-  color: $light-color;
-}
-
+/* Top Cover Image Bar */
 .topbar {
   background: $bg-color-dark-backup;
   background: $bg-color-dark;
-  display: block;
   margin: 0px auto 20px;
   max-width: 1.5*$column-width;
-  .image-box {
-    position: relative;
-    background: inherit;
-    max-height: $cover-image-height + $cover-image-top-padding;
-    overflow: hidden;
-    transition-duration: .5s;
-    img {
-      min-height: $cover-image-height;
-      width: 1.5*$column-width;
-      padding-top: $cover-image-top-padding;
-    }
-    @media (max-width: $column-width-trigger) {
-      max-height: 0;
-    }
+  img {
+    padding-top: $cover-image-top-padding;
   }
-  nav {
-    background: inherit;
-    padding: 6px 0px 6px;
-    margin-bottom: 30px;
-    font-size: 18px;
-    text-align: center;
+  .image-box {
+    height: $cover-image-height + $cover-image-top-padding;
+    transition-duration: .5s;
     @media (max-width: $column-width-trigger) {
-      max-width: 100%;
+      height: 0;
     }
   }
   a {
@@ -159,26 +136,23 @@ footer {
       border: none;
     }
   }
-  .separator {
-    color: $light-color;
-  }
-  .mobile-topbar {
-    display: none;
-    background: inherit;
-    text-align: center;
-    h1 {
-      color: $lightest-color;
-      padding-top: 8px;
-      font-size: 24px;
-      display: inline-block;
+}
 
-    }
-    @media (max-width: $column-width-trigger) {
-      display: block;
-    }
+.mobile-topbar {
+  display: none;
+  background: inherit;
+  text-align: center;
+  h1 {
+    color: $lightest-color;
+    padding-top: 8px;
+    display: inline-block;
+  }
+  @media (max-width: $column-width-trigger) {
+    display: block;
   }
 }
 
+/* Container for Overlaying Text on Images */
 .text-overlay {
   position: absolute;
   top: 40%;
@@ -190,7 +164,7 @@ footer {
     max-width: 80%;
   }
   h1 {
-    background: $bg-color-dark-backup; /* fallback color */
+    background: $bg-color-dark-backup;
     background: $bg-color-dark;
     position: relative;
     visibility: visible;
@@ -198,9 +172,34 @@ footer {
     color: $lightest-color;
     margin: 6px 4px 0px 4px;
     padding: 6px 6px 6px 6px;
-    font-size: 24px;
-    &.tagline {
-      font-size: 18px;
-    }
   }
+}
+
+.tagline {
+  font-size: 18px;
+}
+
+.image-box {
+  position: relative;
+  background: inherit;
+  overflow: hidden;
+  img { // fill the box
+    min-height: 100%;
+    min-width: 100%;
+  }
+}
+
+nav {
+  background: inherit;
+  padding: 6px 0px 6px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
+  @media (max-width: $column-width-trigger) {
+    max-width: 100%;
+  }
+}
+
+.separator {
+    color: $light-color;
 }
