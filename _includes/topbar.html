@@ -2,7 +2,7 @@
     <div class="image-box">
         {% if page.cover %}
         	<a href="{{ site.baseurl }}/"><img src="{{ page.cover }}"></a>
-        {% else %}
+        {% elsif site.cover %}
             <a href="{{ site.baseurl }}/"><img src="{{ site.cover }}"></a>
         {% endif %}
         <container class="text-overlay">

@@ -18,6 +18,7 @@ sass:
     sass_dir: _sass
     style: compressed
 
+# cover images are expected to be 600px by 240px (at least 5:2 aspect ratio)
 defaults:
     -
         scope:
@@ -30,7 +31,7 @@ defaults:
             type: "posts"
         values:
             author: "Ezra Savard"
-            cover: "/media/cover.jpg"
+            cover: "/media/header.jpg"
             layout: "post"
     -
         scope:
@@ -38,5 +39,5 @@ defaults:
             type: "pages"
         values:
             author: "Ezra Savard"
-            cover: "/media/ezra_2016.jpg"
+            cover: "/media/header.jpg"
             layout: "default"

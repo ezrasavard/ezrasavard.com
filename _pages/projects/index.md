@@ -10,8 +10,7 @@ permalink: "/projects/"
 ## 1. This website!
 I had always been intimidated by web programming, since I had zero formal
 instruction in the area. Then again, it's not like I had formal instruction in
-scientific computing, C, Python, virtual networking or PCB design, and I've
-been paid to do all those things.
+scientific computing, C, Python, virtual networking or PCB design, and I've actually been *paid* to do all those things.
 
 ## 2. Undergraduate research
 Okay, maybe it is a bit of a stretch to put this on my personal projects page.
