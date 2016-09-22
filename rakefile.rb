@@ -89,7 +89,7 @@ end
 desc "Deploy to SSH target 'myblog' using Rsync and clean up deleted content"
 task :deploy do
   source_dir = File.join(Dir.pwd, '_site', "*")
-  destination_dir = 'testsitedump/'
+  destination_dir = 'public_html/ezrasavard.com/'
   if Dir[source_dir].empty?
     puts "Error: empty directory cannot be deployed"
   else
