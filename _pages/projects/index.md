@@ -16,6 +16,8 @@ This site was built from the ground up using Jekyll and sass to replace my old W
 
 I had a great time producing this site was as little code repetition as I could manage. Jekyll was a pleasure to use and being able to place conditional statements inside my DOM was awesome as it allowed me to create fairly flexible layouts.
 
+To wrap up, I built a Jekyll theme "Ezora" from the site and it is now available either as a Ruby gem, or more easily, [through GitHub](http://www.github.com/ezrasavard/ezora-jekyll-theme).
+
 ## 2. Undergraduate research
 Okay, maybe it is a bit of a stretch to put this on my personal projects page.
 In my fourth year of undergrad, I decided to try and do something that I
