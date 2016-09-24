@@ -1,19 +1,20 @@
 ---
 layout: default
 title: Home
-top-text: About Me
 ---
 
-<article>
-    
-    <p>Welcome to my site!</p>
-    <p>In my professional time, I develop embedded software for precision actuators with the Firmware and Electrical Engineering team at <a href=http://www.zaber.com/>Zaber Technologies</a> in Vancouver.</p>
-    <p>Outside of work, I enjoy spending my lifting weights and playing around with various technologies, like <a href=https://jekyllrb.com/>Jekyll</a>, which I learned to make this website.</p>
-    <p>This site is pretty spartan as far as content goes. That may change in the future, depending on whether or not I decide to write about more of the things I do.</p>
-
-</article>
-
-<div class="divider"></div>
-<h1 class="top-text">Recent Posts</h1>
-
-{% include postlist.html %}
+{% if page.url == '/' %}
+    <article>
+        <h1 class="top-text">About Me</h1>
+        <p>Welcome to my site!</p>
+        <p>In my professional time, I develop embedded software for precision actuators with the Firmware and Electrical Engineering team at <a href=http://www.zaber.com/>Zaber Technologies</a> in Vancouver.</p>
+        <p>Outside of work, I enjoy spending my lifting weights and playing around with various technologies, like <a href=https://jekyllrb.com/>Jekyll</a>, which I learned to make this website.</p>
+        <p>This site is pretty spartan as far as content goes. That may change in the future, depending on whether or not I decide to write about more of the things I do.</p>
+    </article>
+    <div class="divider"></div>
+    <h1 class="top-text">Most Recent Posts</h1>
+    {% include postlist.html %}
+{% else %}
+    <h1 class="top-text">More Posts</h1>
+    {% include postlist.html %}
+{% endif %}

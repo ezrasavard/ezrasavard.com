@@ -8,11 +8,13 @@ linkedin: ezrasavard
 favicon: /media/favicons/red_i.png
 
 # Build settings
+paginate: 6
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.ezrasavard.com" # the base hostname & protocol for your site
 highlights: pygments
 permalink: posts/:title/
 include: ["_pages"]
+gems: [jekyll-paginate]
 markdown: kramdown
 excerpt_separator: "<!--more-->"
 sass:
