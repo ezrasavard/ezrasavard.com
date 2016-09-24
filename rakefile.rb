@@ -3,6 +3,7 @@
 # - (default) rake draft => prompt for a name, then create a draft with that name in /_drafts
 # - rake publish => list all the drafts that are ready for publishing and prompt for which one to publish
 # - rake publish all => publish all the drafts in /_drafts
+# - credit to Lise Savard (www.github.com/lsav)
 
 require 'time'
 

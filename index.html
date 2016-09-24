@@ -3,7 +3,8 @@ layout: default
 title: Home
 ---
 
-{% if page.url == '/' %}
+{% assign tmp = "/" | append: site.baseurl %}
+{% if page.url == tmp %}
     <article>
         <h1 class="top-text">About Me</h1>
         <p>Welcome to my site!</p>
