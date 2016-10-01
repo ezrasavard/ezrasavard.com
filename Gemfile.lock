@@ -2,7 +2,6 @@ GEM
   remote: https://rubygems.org/
   specs:
     colorator (1.1.0)
-    ezora-jekyll-theme (1.0.0)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
     jekyll (3.2.1)
@@ -39,12 +38,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ezora-jekyll-theme
   jekyll (= 3.2.1)
   jekyll-paginate
-
-RUBY VERSION
-   ruby 2.3.0p0
 
 BUNDLED WITH
    1.12.5
