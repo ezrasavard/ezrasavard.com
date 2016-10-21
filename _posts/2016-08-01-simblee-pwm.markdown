@@ -14,6 +14,8 @@ Simblee is a low-energy bluetooth (BLE) enabled chip with an ARM M0 inside. Docu
 
 ### Here is my code:
 
+Configure the timers:
+
 {% highlight C  linenos %}
 #define PWM16_MAX_VAL 65535
 const int led = 2; // the on-board LED pin, configured as output in other code
@@ -34,6 +36,11 @@ void timer_config() {
   NRF_TIMER2-&gt;EVENTS_COMPARE[1] = 0;
   dynamic_attachInterrupt(TIMER2_IRQn, my_isr);
 }
+{% endhighlight %}
+
+The ISR:
+
+{% highlight C  linenos %}
 
 void my_isr(void) {
 
@@ -46,6 +53,12 @@ void my_isr(void) {
    digitalWrite(led, LOW);
  }
 }
+
+{% endhighlight %}
+
+The function to call:
+
+{% highlight C  linenos %}
 
 void pwm16(uint16_t value) {
 
