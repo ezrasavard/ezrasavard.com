@@ -1,9 +1,24 @@
 <!--Check if there are any posts with the category tag-->
 <!--If not, do nothing-->
 <!--Else, put a header "Related" and iterate through them making text links-->
-{% if site.related_posts %}
-    <h1>Related Posts</h1>
-    {% for post in site.related_posts %}
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+{% for tag in page.tags %}
+    {% for post in site.posts %}
+        {% if post.title != page.title %}
+        
+            {% for related in post.tags %}
+                {% if related == tag %}
+                    <h1>Related Posts</h1>
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+        
+            {% for related in post.tags %}
+                {% if related == tag %}
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
     {% endfor %}
-{% endif %}
+{% endfor %}
