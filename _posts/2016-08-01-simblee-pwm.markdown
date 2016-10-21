@@ -3,7 +3,7 @@ title:  Configuring 16-bit PWM on a Simblee (RFD77101)
 date:   2016-08-01
 cover:  /media/simblee_cover.jpg
 thumb:  /media/simblee_thumb.jpg
-
+tags: [headboard]
 ---
 
 I was tinkering around with my partner's [LED wake-up light project](http://lisesavard.com/wake-up-light/) and decided to try upgrading her PWM to a super smooth 16-bit version. Her original code used the Arduino analogWrite() method and worked quite well at higher values, but zero to one was a bit of a jump.
@@ -14,7 +14,7 @@ Simblee is a low-energy bluetooth (BLE) enabled chip with an ARM M0 inside. Docu
 
 ### Here is my code:
 
-{% highlight C %}
+{% highlight C  linenos %}
 #define PWM16_MAX_VAL 65535
 const int led = 2; // the on-board LED pin, configured as output in other code
 

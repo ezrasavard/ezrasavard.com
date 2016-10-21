@@ -2,6 +2,7 @@
 title:  How to Groom a Moustache
 date:   2015-01-26
 cover:  /media/moustache.png
+tags: [misc, style]
 ---
 
 In the spring of 2014, inspired by photos of David Beckham and Kenneth Branaghs' "Hamlet," I decided to abandon my lazy-beard and wear a chevron moustache. 
