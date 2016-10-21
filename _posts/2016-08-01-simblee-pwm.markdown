@@ -78,7 +78,7 @@ void pwm16(uint16_t value) {
 }
 {% endhighlight %}
 
-Some extra --bits-- of caution though!
+Some extra *bits* of caution though!
 
  * TIMER2 is not a real-time clock and use of the wireless radio will introduce some pretty big delays (~5 ms at times). I found disabling the radio before PWM and re-enabling it after was a good workaround, but that is because my application doesn't need to use the radio during PWM.
  * This implementation shows some minor occasional jitter that I haven't figured out yet. It is probably due to system interrupts on TIMER0, but I need the delay() function in my application so I think I just have to live with it.
