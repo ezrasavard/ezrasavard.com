@@ -32,3 +32,6 @@ multiple solvers from scratch. This grew into a full-time funded summer
 research position.
 
 My work over the summer involved simulating a quantum annealing computer solving a quadratic unconstrained binary optimization problem, which was actually representative of *another* type of quantum computing device doing some trivial logic.
+
+{% assign tagArray = "qmc" | split: "," %}
+{% include related.html tags=tagArray %}
