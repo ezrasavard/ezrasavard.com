@@ -1,3 +1,4 @@
+{% assign related_list = nil %}
 {% for tag in include.tags %}
     {% for post in site.posts %}
         {% if post.title != page.title %}
@@ -14,7 +15,7 @@
 
 <div>
     {% if related_list %}
-        <h2>Related Posts</h2>
+        <h2>Related Posts:</h2>
         {{ related_list | split: ";" | uniq | join: "<br>"}}
     {% endif %}
 </div>
