@@ -25,7 +25,7 @@ body {
 .divider {  // accommodate different browsers
   background: -webkit-linear-gradient(left,rgba(255,255,255,0),$bg-color-dark,rgba(255,255,255,0));
   background: linear-gradient(to right,rgba(255,255,255,0),$bg-color-dark,rgba(255,255,255,0));
-  height: 1px;
+  height: 2px;
   margin: 32px 0;
 }
 

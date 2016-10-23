@@ -12,7 +12,7 @@ In this post I'm going to give an overview about D-Wave, quantum annealing, heur
 
 In a later post I'll share my full research, but for now, let's talk about quantum computers.
 
-<!--More-->
+<!--more-->
 
 # D-Wave Quantum Computers vs Quantum Computers
 D-Wave sells their product as a "quantum computer." This is a source of a lot of confusion for some people because of phrases like "Quantum computers will completely negate RSA," which a D-Wave machine does not do.
