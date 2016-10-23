@@ -17,7 +17,7 @@
     {% if related_list %}
         <h2>Related Posts:</h2>
         <ul>
-        {{ related_list | split: ";" | uniq | join: "<br>"}}
+        {{ related_list | split: ";" | uniq | join: ""}}
         </ul>
     {% endif %}
 </div>
