@@ -6,8 +6,9 @@
 
 body {
   line-height: 28px;
+  font-size: 11pt;
   background-color: $bg-color;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: $normal-color;
   -webkit-font-smoothing: antialiased;
@@ -40,6 +41,7 @@ footer {
 
 h1 {
   color: $dark-color;
+  font-family: 'Raleway', Arial, sans-serif;
   margin: 18px 0px 10px;
   padding: 6px 0px 6px 0px;
   font-size: 24px;
@@ -53,13 +55,15 @@ h1 {
 }
 
 .date {
-    font-family: Monaco, "Courier New", monospace;
+    //font-family: Monaco, "Courier New", monospace;
+    font-family: 'Oswald', sans-serif;
     color: $normal-color;
     margin: 6px 0px 15px;
     font-size: 18px;
 }
 
 h2 {
+  font-family: 'Raleway', Arial, sans-serif;
   color: $normal-color;
   margin: 10px 0px 6px;
   font-size: 18px;
@@ -104,6 +108,7 @@ main {
 
 /* Top Cover Image Bar */
 .topbar {
+  font-family: 'Raleway', Arial, sans-serif;
   background: $bg-color-dark-backup;
   background: $bg-color-dark;
   margin: 0px auto 20px;
@@ -165,6 +170,7 @@ main {
     max-width: 80%;
   }
   h1 {
+    font-family: 'Raleway', Arial, sans-serif;
     background: $bg-color-dark-backup;
     background: $bg-color-dark;
     position: relative;
