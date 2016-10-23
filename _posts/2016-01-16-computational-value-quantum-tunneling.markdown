@@ -55,7 +55,7 @@ $$
 B is known as the prefactor and D is the tunneling domain size (number of qubits cotunneling), which is 8 for a single cluster in this problem in the current D-Wave architecture; D generally scales linearly with N, the problem size.
 
 ## Simulated Annealing
-By mimicking a thermal process, SA searches for a global minimum by using excitation to travel over barriers. Temperatures must be raised very high to allow a tall barrier to be passed over, so rugged landscapes are very difficult for SA and a solution involves a large number of restarts. For the weak-strong cluster problem, by design, SA begins to resemble an exhaustive search done by random sampling. The median number of restarts was 109 to achieve a 99% success probability.
+By mimicking a thermal process, SA searches for a global minimum by using excitation to travel over barriers. Temperatures must be raised very high to allow a tall barrier to be passed over, so rugged landscapes are very difficult for SA and a solution involves a large number of restarts. For the weak-strong cluster problem, by design, SA begins to resemble an exhaustive search done by random sampling. The median number of restarts was $$10^9$$ to achieve a 99% success probability.
 
 ## Quantum Monte Carlo
 Essentially a simulation of quantum annealing, QMC performs random sampling and spin-flips across the problem domain. The path integral QMC is used to solve quantum mechanical many-body problems with finite temperature ranges.
