@@ -6,13 +6,13 @@ thumb:  /media/dwave-chip_thumb.jpg
 tags: [qmc]
 ---
 
-From January until late August of 2016, I pursued undergraduate research on simulating physical quantum annealing with a normal (classical) computer. The methods that I tried didn't work out, but it was a pretty interesting journey. By the end, I had learned how to learn from research papers, a great deal about quantum mechanics and optimization algorithms, and that I liked building research tools a lot more than using them for research.
-
-In this post I'm going to give an overview about D-Wave, quantum annealing, heuristic optimization algorithms, and then touch on what I was researching exactly.
-
-In a later post I'll share my full research, but for now, let's talk about quantum computers.
+From January until late August of 2016, I pursued undergraduate research on simulating physical quantum annealing. In this post I'm going to give an overview about D-Wave, quantum annealing, heuristic optimization algorithms, and then touch on what I was researching exactly.
 
 <!--more-->
+
+The methods that I tried didn't work out, but it was a pretty interesting journey. By the end, I had learned how to learn from research papers, a great deal about quantum mechanics and optimization algorithms, and that I liked building research tools a lot more than using them for research.
+
+In a later post I'll share my full research, but for now, let's talk about quantum computers.
 
 # D-Wave Quantum Computers vs Quantum Computers
 D-Wave sells their product as a "quantum computer." This is a source of a lot of confusion for some people because of phrases like "Quantum computers will completely negate RSA," which a D-Wave machine does not do.

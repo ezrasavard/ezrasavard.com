@@ -6,11 +6,11 @@ thumb:  /media/dwave-graph_thumb.png
 tags: [qmc]
 ---
 
-In December 2015, Google published the paper [“What is the Computational Value of Finite Range Tunneling?”](https://arxiv.org/abs/1512.02206v3)[^fn0] which summarizes a series of experiments comparing quantum annealing (QA) with both simulated annealing and the path integral quantum monte carlo (QMC) algorithm on two types of problems. The problems tested were a weak-strong cluster problem, which is binary optimization, and the number partitioning problem, which is a standard NP-Hard problem. The paper goes on to model QA mathematically and simulate the performance of future [D-Wave](http://www.dwavesys.com) computers.
-
-At the start of my undergraduate research, I was tasked with summarizing it so I could learn the terminology and get a bit of background in the field. I've decided to post that summary here with some minor changes as an introduction to the subject of quantum annealing computers, for the curious. There is a lot of confusing wording around quantum computer terminology, but I'll save that for another post and keep this one to my summary-dump.
+At the start of my undergraduate research, I was tasked with summarizing Google's 2015 paper [“What is the Computational Value of Finite Range Tunneling?”](https://arxiv.org/abs/1512.02206v3) I'm posting it here in case it proves useful to anyone looking for more introductory material on subject of quantum annealing computers.
 
 <!--more-->
+
+In December 2015, Google published the paper [“What is the Computational Value of Finite Range Tunneling?”](https://arxiv.org/abs/1512.02206v3)[^fn0] which summarizes a series of experiments comparing quantum annealing (QA) with both simulated annealing and the path integral quantum monte carlo (QMC) algorithm on two types of problems. The problems tested were a weak-strong cluster problem, which is binary optimization, and the number partitioning problem, which is a standard NP-Hard problem. The paper goes on to model QA mathematically and simulate the performance of future [D-Wave](http://www.dwavesys.com) computers.
 
 # Optimization Problems and Energy Landscapes
 Optimization problems are problems where a cost function needs to be minimized. The cost function can take many forms and is specific to the problem.

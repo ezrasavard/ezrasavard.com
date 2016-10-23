@@ -1,8 +1,6 @@
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-    {% if forloop.index0 != 0 %}
-        <div class="divider"></div>
-    {% endif %}
+<div class="snippet">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="image-box">
             {% if post.thumb %}
@@ -23,6 +21,7 @@
         <p>{{ post.excerpt }}</p>
         <a href="{{ post.url | prepend: site.baseurl }}"><p style="text-align:center">Read More</p></a>
     {% endif %}
+    </div>
 {% endfor %}
 
 <!-- Pagination links -->
