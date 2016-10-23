@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Overview of D-Wave Quantum Computers and Optimization
 date:   2016-10-22
 cover:  /media/dwave-chip_cover.jpg
@@ -16,15 +15,17 @@ In a later post I'll share my full research, but for now, let's talk about quant
 <!--More-->
 
 # D-Wave Quantum Computers vs Quantum Computers
-D-Wave sells their product as a quantum computer. This is a source of a lot of confusion for some people because of phrases like "Quantum computers will completely negate RSA," which a D-Wave machine does not do.
+D-Wave sells their product as a "quantum computer." This is a source of a lot of confusion for some people because of phrases like "Quantum computers will completely negate RSA," which a D-Wave machine does not do.
 
-D-Wave machines are *quantum annealers*, that is, a special purpose quantum computer that is capable of solving some important problems, but not quantum algorithms like Shor's algorithm, or Grover's. Those algorithms require quantum logic gates, which I won't get into here.
+D-Wave machines are *quantum annealers*, that is, a special purpose quantum computer that is capable of solving some important problems, but not capable of running quantum algorithms like Shor's algorithm, or Grover's. Those algorithms require quantum logic gates, which I won't get into here.
 
 * [Quantum Annealing on Wikipedia](https://en.wikipedia.org/wiki/Quantum_annealing)
 * [D-Wave Systems](www.dwavesys.com)
 
 ## What do Quantum Annealers do then?
-Quantum annealers solve problems that can be modeled with an ising spin glass and embedded into the computer. This includes a lot of hard problems like traveling salesman, number partitioning problem, and really any quadratic uncontrained binary optimization problem that only requires two-spin interactions.
+Quantum annealers solve problems that can be modeled with an ising [spin glass](https://en.wikipedia.org/wiki/Spin_glass) and embedded into the computer. This includes a lot of hard problems like traveling salesman, number partitioning problem, and really any quadratic uncontrained binary optimization (QUBO) problems.
+
+The current D-Wave computers are hardware versions of QUBO with K = 2, meaning that it runs with single and two-spin interactions, but not more yet.
 
 *The embedding problem is part of why D-Wave is focused on producing computers with more and more qubits -- you need a lot of qubits to solve useful problems. Further, D-Wave machines are (currently) working with a planar arrangement of qubits, which limits the amount of connectivity available, meaning that sometimes several qubits are needed to represent a single spin in the source problem.*
 
@@ -35,9 +36,7 @@ In Google's 2015 paper characterizing a D-Wave 2X, it was found that the D-Wave 
 
 But what about prefactors? Do they matter? They *can* matter.
 
-Mergesort scales better than quicksort, yet quicksort frequently runs faster because it has a much better prefactor. The Google paper found that the prefactor on the D-Wave machine was around $$10^8$$, which is enormous.
-
-Because of the aforementioned embedding problem, a D-Wave device of this style will always be limited in the size of the problems it can represent by the number of available qubits, which is currently around 2000.
+Mergesort scales better than quicksort, yet quicksort frequently runs faster because it has a much better prefactor. The Google paper found that the prefactor on the D-Wave machine was around $$10^8$$, which is enormous. It is also worth noting that a great time of the time spent is spent on getting the problem into the computer and getting the results back out -- areas that I imagine D-Wave engineers are going to seriously improve on in the next few years.
 
 If you want to read more about it, I wrote a summary of Google's paper and have it posted [here](http://ezrasavard.com/posts/computational-value-quantum-tunneling/), or you can find it [on arxiv](https://arxiv.org/abs/1512.02206v3).
 
