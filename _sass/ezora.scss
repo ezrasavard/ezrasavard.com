@@ -86,7 +86,7 @@ main {
     padding-left: $column-padding;
     padding-right: $column-padding;
   }
-  img {
+  img, iframe {
     margin: 25px auto;
     max-width: 100%;
     // nice fade-y box shadow
