@@ -20,7 +20,7 @@ It has been almost two years since I made this commitment and I like how this ap
 
 <!--more-->
 
-So far, I've applied this idea to my satisfaction with my body, my education and my career. With each area, when I realized that I was feeling insecure about an element of it, I figured out what was actually bothering me and took definite steps toward improving that area.
+So far, I've applied this idea to my satisfaction with my body, my education and my career. With each area, when I realised that I was feeling insecure about an element of it, I figured out what was actually bothering me and took definite steps toward improving that area.
 
 For my body image, it was straight forward dieting and weight lifting. For my education and career, it is a much longer process that started with changing jobs, now includes continuous self-study, and will soon include a part-time masters degree.
 
