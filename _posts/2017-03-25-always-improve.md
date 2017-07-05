@@ -22,6 +22,6 @@ I like how this approach has been working out for me. In particular, I've come t
 
 So far, I've applied this idea to my satisfaction with my body, my education and my career. With each area, I used roughly the same process: when I realised that I was feeling insecure, I figured out what specifically was bothering me and then took definite steps toward resolving it.
 
-For my body image, it was straight forward dieting and weight lifting. For my education and career, it is a much longer and ongoing process that started with changing jobs, now includes continuous self-study, and will soon include a part-time masters degree.
+For my body image, it was straight forward dieting and weight lifting. For my education and career, it is a much longer and ongoing process that started with changing jobs and now includes continuous self-study.
 
 There is so much satisfaction to be had in feeling consistently busy working on the things I most value, and I don't think I've been so steadily happy at any point in my life.
