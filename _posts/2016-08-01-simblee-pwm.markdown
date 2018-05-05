@@ -1,14 +1,14 @@
 ---
 title:  Configuring 16-bit PWM on a Simblee (RFD77101)
 date:   2016-08-01
-cover:  /media/simblee_cover.jpg
-thumb:  /media/simblee_thumb.jpg
 tags: [headboard]
 ---
 
 I was tinkering around with my partner's [LED wake-up light project](http://lisesavard.com/wake-up-light/) and decided to try upgrading her PWM to a super smooth 16-bit version. Her original code used the Arduino analogWrite() method and worked quite well at higher values, but zero to one was a bit of a jump.
 
 <!--more-->
+
+<img alt="Sparkfun Simblee Board" src="{{site.baseurl}}/media/simblee.jpg">
 
 Simblee is a low-energy bluetooth (BLE) enabled chip with an ARM M0 inside. Documentation focuses mostly on using its own mobile app to interact with the device through customizable GUIs. On the hardware front, the Simblee is not a very well documented product, and everyone seems to pass around [the same code snippet](http://forum.rfduino.com/index.php?topic=155.0) for using a 16-bit timer to generate an even square wave. For that reason, I made this post about configuring TIMER2 with a variable duty cycle square wave suitable for PWM.
 

@@ -1,11 +1,28 @@
 title: Ezra Savard
 email: ezra@ezrasavard.com
-greeting: Hi, I'm Ezra Savard
+greeting: Ezra Savard
 description: > # this means to ignore newlines until "baseurl:"
     I'm an engineer who likes coffee, tinkering and weightlifting.
 github:  ezrasavard
 linkedin: ezrasavard
 favicon: favicon.png
+navlinks:
+    -
+        text: Home
+        url: /
+        internal: True
+    -
+        text: About Me
+        url: /about
+        internal: True
+    -
+        text: Github
+        url: https://www.github.com/ezrasavard
+        internal: False
+    -
+        text: LinkedIn
+        url: https://www.linkedin.com/in/ezrasavard
+        internal: False
 
 # Build settings
 paginate: 3
@@ -16,15 +33,13 @@ highlights: pygments
 permalink: posts/:title/
 include: ["_pages"]
 exclude: ["_theme"]
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 markdown: kramdown
 excerpt_separator: "<!--more-->"
 sass:
     sass_dir: _sass
     style: compressed
 
-# cover images are expected to be 900px by 240px, or at least 15:4 aspect ratio
-# thumbnails look best with 3:1 or 5:2 ratios in this layout.
 defaults:
     -
         scope:
@@ -37,7 +52,6 @@ defaults:
             type: "posts"
         values:
             author: "Ezra Savard"
-            cover: "/media/header.jpg"
             layout: "post"
     -
         scope:
@@ -45,5 +59,9 @@ defaults:
             type: "pages"
         values:
             author: "Ezra Savard"
-            cover: "/media/header.jpg"
-            layout: "default"
+            layout: "page"
+    -
+        scope:
+            path: ""
+        values:
+            show-subtitle: false

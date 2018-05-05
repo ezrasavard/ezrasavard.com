@@ -1,7 +1,6 @@
 ---
 title:  How to Groom a Moustache
 date:   2015-01-26
-cover:  /media/moustache.png
 tags: [misc, style]
 ---
 

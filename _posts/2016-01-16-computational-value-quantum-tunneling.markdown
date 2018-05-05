@@ -1,8 +1,6 @@
 ---
 title:  An Undergrad Summarizes Google's 2015 Paper About Quantum Annealing
 date:   2016-01-16
-cover:  /media/dwave-graph_cover.png
-thumb:  /media/dwave-graph_thumb.png
 tags: [qmc]
 ---
 

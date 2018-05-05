@@ -1,14 +1,14 @@
 ---
 title: Overview of D-Wave Quantum Computers and Optimization
 date:   2016-10-22
-cover:  /media/dwave-chip_cover.jpg
-thumb:  /media/dwave-chip_thumb.jpg
 tags: [qmc]
 ---
 
 From January until late August of 2016, I pursued undergraduate research on simulating physical quantum annealing. In this post I'm going to give an overview about D-Wave, quantum annealing, heuristic optimization algorithms, and then touch on what I was researching exactly.
 
 <!--more-->
+
+<img alt="D-Wave Quantum Annealing Chip" src="{{site.baseurl}}/media/dwave-chip.jpg">
 
 The methods that I tried didn't work out, but it was a pretty interesting journey. By the end, I had learned how to learn from research papers, a great deal about quantum mechanics and optimization algorithms, and that I liked building research tools a lot more than using them for research.
 
@@ -26,6 +26,8 @@ D-Wave machines are *quantum annealers*, that is, a special purpose quantum comp
 Quantum annealers solve problems that can be modeled with an ising [spin glass](https://en.wikipedia.org/wiki/Spin_glass) and embedded into the computer. This includes a lot of hard problems like traveling salesman, number partitioning problem, and really any quadratic uncontrained binary optimization (QUBO) problems.
 
 The current D-Wave computers are hardware versions of QUBO with K = 2, meaning that it runs with single and two-spin interactions, but not more yet.
+
+<img alt="D-Wave Chimera Graph" src="{{site.baseurl}}/media/dwave-chimera.png">
 
 *The embedding problem is part of why D-Wave is focused on producing computers with more and more qubits -- you need a lot of qubits to solve useful problems. Further, D-Wave machines are (currently) working with a planar arrangement of qubits, which limits the amount of connectivity available, meaning that sometimes several qubits are needed to represent a single spin in the source problem.*
 

@@ -1,8 +1,6 @@
 ---
 title: To Always Improve
 date:   2017-03-25
-cover:  /media/stressed-face.png
-thumb:  /media/stressed-face-thumb.png
 tags: [misc]
 ---
 
