@@ -26,7 +26,7 @@ navlinks:
 
 # Build settings
 paginate: 3
-#baseurl: "/ezorademo/" # the subpath of your site, e.g. /blog/
+#baseurl: "/demo/" # the subpath of your site, e.g. /blog/
 baseurl: ""
 url: "http://www.ezrasavard.com" # the base hostname & protocol for your site
 highlights: pygments
@@ -60,8 +60,3 @@ defaults:
         values:
             author: "Ezra Savard"
             layout: "page"
-    -
-        scope:
-            path: ""
-        values:
-            show-subtitle: false
