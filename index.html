@@ -14,7 +14,9 @@ title: Home
     </div>
     {% if post.excerpt %}
       <div class=excerpt>{{ post.excerpt }}</div>
-      <div class=more><a href="{{ post.url | prepend: site.baseurl }}">- Read more -</a></div>
+      {% if post.excerpt != post.content %}
+          <div class=more><a href="{{ post.url | prepend: site.baseurl }}">- Read more -</a></div>
+      {% endif %}
     {% endif %}
   </div>
 {% endfor %}
