@@ -33,7 +33,7 @@ highlights: pygments
 permalink: posts/:title/
 include: ["_pages"]
 exclude: ["_theme"]
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
 markdown: kramdown
 excerpt_separator: "<!--more-->"
 sass:
@@ -60,3 +60,4 @@ defaults:
         values:
             author: "Ezra Savard"
             layout: "page"
+
