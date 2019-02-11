@@ -43,7 +43,12 @@
                     {{ content }}
                 </div>
                 <div class="feets">
-                    {% include footer.html %}
+                    <footer>
+                        {% assign tmp = "/" | append: site.baseurl %}
+                        {% if page.url != tmp %}
+                            <h2><a href="{{ site.baseurl }}/">Home</a></h2>
+                        {% endif %}
+                    </footer>
                 </div>
             </div>
 		</main>
