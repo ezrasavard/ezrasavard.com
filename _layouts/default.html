@@ -26,18 +26,7 @@
                     ></img>
                 </div>
                 <div class="homepageLinksBlock">
-                    <nav>
-                        {% for x in site.navlinks %}
-                            {% if forloop.first == false %}
-                                <br>
-                            {% endif %}
-                            {% if x.internal == true %}
-                                <a class=navlink href="{{ site.baseurl }}{{ x.url }}">{{ x.text }}</a>
-                            {% else %}
-                                <a class=navlink href="{{ x.url }}">{{ x.text }}</a>
-                            {% endif %}
-                        {% endfor %}
-                    </nav>
+                    {% include navlinks.html %}
                 </div>
                 <div class="postColumn">
                     {{ content }}
