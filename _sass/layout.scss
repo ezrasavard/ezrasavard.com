@@ -1,0 +1,109 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width: auto;
+}
+
+.mahGrid {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .mahGrid {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr 1fr 1fr;
+        grid-template-rows: auto 1fr auto;
+    }
+}
+
+
+.homepageTitleBlock {
+    grid-column: span 2;
+    background: red;
+    padding: 80px;
+    .title {
+        &:hover,
+        &:focus, {
+            border-bottom: none;
+        }
+        color: $dark-color;
+        font-family: $page-title-font;
+        font-size: 94px;
+        line-height: 66px;
+    }
+}
+@media (min-width: 768px) {
+    .homepageTitleBlock {
+        transform: rotate(-10deg);
+    }
+}
+
+.homepageAboutBlock {
+    grid-column: span 2;
+    background: lightblue;
+    padding: 20px;
+}
+
+.homepageLinksBlock {
+    grid-column: span 1;
+    background: pink;
+    padding: 10px;
+    nav {
+        margin-top: 48px;
+        font-size: 20px;
+        text-align: left;
+    }
+    .navlink {
+        color: $dark-color;
+        &:hover,
+        &:focus, {
+            border-bottom: 1px solid $dark-color;
+        }
+    }
+}
+
+.homepagePictureBlock {
+    grid-column: span 2;
+    img {
+        display: block;
+        top: 0px;
+        width: 200px;
+        margin: auto;
+        border: 4px solid;
+        border-color: #000;
+    }
+}
+
+.postColumn {
+    grid-column: span 4;
+    flex: 1;
+    background: lightgreen;
+    padding: 10px;
+    img {
+        max-width: 80%;
+        margin: auto;
+        border: 4px solid;
+        border-color: #000;
+    }
+}
+
+footer, .feets {
+    grid-column: span 6;
+    background: green;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: $light-color;
+    p {
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+}
+
+

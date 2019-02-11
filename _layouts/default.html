@@ -5,12 +5,47 @@
 <html lang="en">
 	<head>
 	    {% include head.html %}
+        {% if page.title %}
+            <title>{{ site.title }} - {{ page.title }}</title>
+        {% else %}
+            <title>{{ site.title }}</title>
+        {% endif %}
 	</head>
 	<body>
-		{% include topbar.html %}
 		<main>
-			{{ content }}
-			{% include footer.html %}
+            <div class="mahGrid">
+                <div class="homepageTitleBlock">
+                    <a class=title href="{{ site.baseurl }}/">Ezra<br>Savard</a>
+                </div>
+                <div class="homepageAboutBlock">
+                    I'm a software engineer living in Vancouver, BC. Other than working, I enjoy weight lifting and reading interesting things from the set of business, technology, economics, psychology, politics, and education, in no particular order.
+                </div>
+                <div class="homepagePictureBlock">
+                    <img
+                        src="https://paintdevstatics.blob.core.windows.net/statics/kenneth_branagh.jpg"
+                    ></img>
+                </div>
+                <div class="homepageLinksBlock">
+                    <nav>
+                        {% for x in site.navlinks %}
+                            {% if forloop.first == false %}
+                                <br>
+                            {% endif %}
+                            {% if x.internal == true %}
+                                <a class=navlink href="{{ site.baseurl }}{{ x.url }}">{{ x.text }}</a>
+                            {% else %}
+                                <a class=navlink href="{{ x.url }}">{{ x.text }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </nav>
+                </div>
+                <div class="postColumn">
+                    {{ content }}
+                </div>
+                <div class="feets">
+                    {% include footer.html %}
+                </div>
+            </div>
 		</main>
 		<script>
 			$("script[type='math/tex']").replaceWith(function() {

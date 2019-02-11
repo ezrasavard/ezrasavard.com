@@ -9,20 +9,6 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-/* Main Column */
-main {
-  width: $column-width;
-  margin: 10px auto;
-
-  padding-left: $column-padding;
-  padding-right: $column-padding;
-  @media (max-width: $column-width-trigger) {
-    width: auto;
-    padding-left: $column-padding;
-    padding-right: $column-padding;
-  }
-}
-
 .title, .pagetitle {
   color: $dark-color;
   font-family: $title-font;
@@ -43,17 +29,6 @@ main {
   margin-top: 12px;
   margin-bottom: 24px;
   font-weight: 400;
-}
-
-footer {
-  margin-top: 100px;
-  margin-bottom: 10px;
-  text-align: center;
-  color: $light-color;
-  p {
-    margin-top: 90px;
-    margin-bottom: 40px;
-  }
 }
 
 p {
@@ -129,21 +104,6 @@ table {
     width: 100%;
     height: 100%;
   }
-}
-
-img {
-  display: block;
-  max-width: 80%;
-  margin: 2rem auto;
-    // nice fade-y box shadow
-  border: 1px solid;
-  border-color: #e5e5e5 #dbdbdb #d2d2d2;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
-  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 }
 
 h1 {
