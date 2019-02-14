@@ -30,16 +30,6 @@ main {
     padding-right: 20%;
     padding-top: 10%;
     padding-bottom: 10%;
-    .title {
-        &:hover,
-        &:focus, {
-            border-bottom: none;
-        }
-        color: $dark-color;
-        font-family: $page-title-font;
-        font-size: 94px;
-        line-height: 66px;
-    }
 }
 @media (min-width: 768px) {
     .homepageTitleBlock {
@@ -58,18 +48,6 @@ main {
     background: pink;
     padding: 20px;
     margin: 0px;
-    nav {
-        margin-top: 48px;
-        font-size: 20px;
-        text-align: left;
-    }
-    .navlink {
-        color: $dark-color;
-        &:hover,
-        &:focus, {
-            border-bottom: 1px solid $dark-color;
-        }
-    }
 }
 
 .homepagePictureBlock {
@@ -78,8 +56,6 @@ main {
         object-fit: cover;
         width: 100%;
         height: 100%;
-        outline: 4px solid black;
-        outline-offset: -4px;
         max-width: 350px;
     }
 }
@@ -95,8 +71,6 @@ main {
     img {
         max-width: 80%;
         margin: auto;
-        border: 4px solid;
-        border-color: #000;
     }
 }
 
@@ -105,8 +79,6 @@ footer, .feets {
     background: green;
     padding-top: 40px;
     padding-bottom: 10px;
-    text-align: center;
-    color: $light-color;
     p {
         margin-top: 90px;
         margin-bottom: 40px;

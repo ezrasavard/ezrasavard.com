@@ -9,6 +9,53 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+.homepageTitleBlock {
+    .title {
+        &:hover,
+        &:focus, {
+            border-bottom: none;
+        }
+        color: $dark-color;
+        font-family: $page-title-font;
+        font-size: 94px;
+        line-height: 66px;
+    }
+}
+
+.homepageLinksBlock {
+    nav {
+        margin-top: 48px;
+        font-size: 20px;
+        text-align: left;
+    }
+    .navlink {
+        color: $dark-color;
+        &:hover,
+        &:focus, {
+            border-bottom: 1px solid $dark-color;
+        }
+    }
+}
+
+.homepagePictureBlock {
+    img {
+        outline: 4px solid black;
+        outline-offset: -4px;
+    }
+}
+
+.postColumn {
+    img {
+        border: 4px solid;
+        border-color: #000;
+    }
+}
+
+footer, .feets {
+    text-align: center;
+    color: $light-color;
+}
+
 .title, .pagetitle {
   color: $dark-color;
   font-family: $title-font;
