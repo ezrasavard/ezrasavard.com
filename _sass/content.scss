@@ -17,13 +17,14 @@ body {
         }
         color: $dark-color;
         font-family: $page-title-font;
-        font-size: 10vw;
-        line-height: 8vw;
+        font-size: 9.5vw;
+        line-height: 9vw;
     }
 }
 
 .homepageLinksBlock {
     nav {
+        padding-top: 20px;
         font-size: 20px;
         text-align: left;
     }
@@ -34,6 +35,10 @@ body {
             border-bottom: 1px solid $dark-color;
         }
     }
+}
+
+.homepageAboutBlock {
+    font-size: 20px;
 }
 
 .homepagePictureBlock {
