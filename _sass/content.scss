@@ -29,22 +29,23 @@ body {
         text-align: left;
     }
     .navlink {
-        color: $dark-color;
+        color: $loud-color;
         &:hover,
         &:focus, {
-            border-bottom: 1px solid $dark-color;
+            border-bottom: 1px solid $loud-color;
         }
     }
 }
 
 .homepageAboutBlock {
+    color: $loud-color;
     font-size: 20px;
 }
 
 .homepagePictureBlock {
     img {
-        outline: 4px solid black;
-        outline-offset: -4px;
+        outline: 8px solid $highlight-color;
+        outline-offset: -8px;
     }
 }
 
@@ -52,6 +53,12 @@ body {
     img {
         border: 4px solid;
         border-color: #000;
+        display: block;
+    }
+    a {
+      font-weight: bold;
+      font-style: italic;
+      background-color: $highlight-color;
     }
 }
 
@@ -87,7 +94,7 @@ p {
 }
 
 a {
-  color: $light-color;
+  color: $link-color;
   text-decoration: none;
   &:hover,
   &:focus, {

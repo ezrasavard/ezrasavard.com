@@ -6,7 +6,6 @@ body {
 
 main {
     width: auto;
-    background: #ffe2007d;
 }
 
 .mahGrid {
@@ -19,13 +18,14 @@ main {
     .mahGrid {
         display: grid;
         grid-template-columns: 3fr 2fr 2fr 2fr 1fr 1fr;
-        grid-template-rows: minmax(auto, 24vw) 1fr auto;
+        grid-template-rows: auto 1fr auto;
     }
 }
 
 .homepageTitleBlock {
     grid-column: span 2;
-    background: red;
+    background: $highlight-color;
+    max-height: 18vw;
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 5%;
@@ -68,7 +68,7 @@ main {
 .postColumn {
     grid-column: span 4;
     flex: 1;
-    background: #ffffffd6;
+    background: $column-bg-color;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10%;
