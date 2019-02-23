@@ -68,3 +68,9 @@ an industry, and how I think about value in general.
 Basically the audio format of Stratechery, conversations go wider and
 deeper than the articles on the blog. I like both formats a lot.
 
+[99% Invisible](https://99percentinvisible.org) -
+I listen to this less often than I would like to, but it has really great
+stories about very everyday things. My favorite was probably the one on
+[shipping containers](https://99percentinvisible.org/episode/containers-ships-tugs-port/)
+, but so many of them are interesting and worth listening to.
+
