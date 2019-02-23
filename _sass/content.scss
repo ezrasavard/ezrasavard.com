@@ -32,7 +32,7 @@ body {
         color: $loud-color;
         &:hover,
         &:focus, {
-            border-bottom: 1px solid $loud-color;
+            border-bottom: 2px solid $loud-color;
         }
     }
 }
@@ -63,70 +63,62 @@ body {
 }
 
 .pagination {
-  margin-top: 100px;
-  text-align: center;
-  font-size: 18px;
-  span {
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-  a {
-    background-color: #00000000;
-    font-style: normal;
-  }
-}
-
-.more, .relatedPosts {
-  a {
-    background-color: #00000000;
-    font-style: normal;
-  }
-}
-
-footer, .feets {
+    margin-top: 100px;
     text-align: center;
-    color: $light-color;
+    font-size: 18px;
+    span {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
+
+.more, .relatedPosts, .pagination {
+    a {
+      background-color: #00000000;
+      font-style: normal;
+    }
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover,
+    &:focus, {
+        border-bottom: 2px solid $link-color;
+    }
+}
+
 
 .title, .pagetitle {
-  color: $dark-color;
-  font-family: $title-font;
-  margin-top: 20px;
-  font-size: 36px;
-  line-height: 40px;
-  font-weight: 400;
-  font-style: normal;
+    color: $dark-color;
+    font-family: $title-font;
+    margin-top: 20px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .pagetitle {
-  margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .date {
-  font-family: $subtitle-font;
-  color: $light-color;
-  font-size: 24px;
-  margin-top: 12px;
-  margin-bottom: 24px;
-  font-weight: 400;
-  font-style: normal;
+    font-family: $subtitle-font;
+    color: $light-color;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 p {
     margin-bottom: 15px;
 }
 
-a {
-  color: $link-color;
-  text-decoration: none;
-  &:hover,
-  &:focus, {
-    border-bottom: 2px solid $link-color;
-  }
-}
-
 a.footnote:before {   
- content: "[";
+   content: "[";
 }
 
 a.footnote:after {
@@ -134,10 +126,11 @@ a.footnote:after {
 }
 
 blockquote {
-  border-left: 2px solid $dark-color;
-  padding-left: 24px;
-  margin-left: 12px;
-  quotes: "\201C""\201D""\2018""\2019";
+    border-left: 4px solid $dark-color;
+    font-style: italic;
+    padding-left: 16px;
+    margin-left: 0px;
+    quotes: "\201C""\201D""\2018""\2019";
 }
 
 code, pre {
