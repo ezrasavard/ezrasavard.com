@@ -74,6 +74,7 @@ footer, .feets {
   font-size: 36px;
   line-height: 40px;
   font-weight: 400;
+  font-style: normal;
 }
 
 .pagetitle {
@@ -87,6 +88,7 @@ footer, .feets {
   margin-top: 12px;
   margin-bottom: 24px;
   font-weight: 400;
+  font-style: normal;
 }
 
 p {
@@ -98,7 +100,7 @@ a {
   text-decoration: none;
   &:hover,
   &:focus, {
-    border-bottom: 1px solid $light-color;
+    border-bottom: 2px solid $link-color;
   }
 }
 
