@@ -3,18 +3,19 @@
 ---
 
 /* Text colors */
-$lightest-color: #cccccc;
 $light-color: #aaaaaa;
+$link-color: #000000;
 $normal-color: #4a4a4a;
 $dark-color: #2a2a2a;
 
 /* Background colors */
-$bg-color: #efefef;
+$bg-color: #171717;
+$column-bg-color: ivory;
+$highlight-color: #ffff00;
+$loud-color: $column-bg-color;
 
 /* Dimensions */
-$column-width: 600px;
-$column-padding: 30px;
-$column-width-trigger: $column-width + 2*$column-padding;
+$column-width: 100%;
 
 /* Fonts */
 $title-font: 'Oswald', sans-serif;
@@ -23,7 +24,7 @@ $page-title-font: $title-font;
 $page-subtitle-font: $subtitle-font;
 $body-font: 'Open Sans', sans-serif;
 
-@import "topbar";
-@import "snippets";
+@import "layout";
 @import "content";
 @import "syntax";
+

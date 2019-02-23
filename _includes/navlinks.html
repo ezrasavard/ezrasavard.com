@@ -1,0 +1,30 @@
+
+<script>
+    function mailIcon() {
+        /* Email obfuscation */
+        const chars = ",.abcdefghijklmnopqrstuvwxyz!@#$%^&*()";
+        const order = [6, 27, 19, 2, 29, 20, 2, 23, 2, 19, 5, 1, 4, 4]
+        let x = "";
+        for (let i = 0; i < order.length; i++) {
+            x += chars[order[i]];
+        }
+        document.write("<a class=navlink href='mailto:" + x + "'>" + "<i class='fas fa-envelope fa-2x'></i>" + "</a>");
+    }
+</script>
+
+<nav>
+    <a class=navlink href="https://github.com/ezrasavard">
+      <i class="fab fa-github fa-2x"></i>
+    </a>
+    <a class=navlink href="https://linkedin.com/in/ezrasavard">
+      <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+    <script>mailIcon();</script>
+</nav>
+<nav>
+  <ul>
+    <li>
+      <a class=navlink href="{{ site.baseurl }}/links">Good Links</a>
+    </li>
+  </ul>
+</nav>

@@ -5,12 +5,43 @@
 <html lang="en">
 	<head>
 	    {% include head.html %}
+        {% if page.title %}
+            <title>{{ site.title }} - {{ page.title }}</title>
+        {% else %}
+            <title>{{ site.title }}</title>
+        {% endif %}
 	</head>
 	<body>
-		{% include topbar.html %}
 		<main>
-			{{ content }}
-			{% include footer.html %}
+            <div class="mahGrid">
+                <div class="homepageTitleBlock">
+                    <a class=title href="{{ site.baseurl }}/">Ezra<br>Savard</a>
+                </div>
+                <div class="homepageAboutBlock">
+                    <p>
+                    I'm a software engineer living in Vancouver, BC.
+                    </p>
+                    <p>
+                    Other than working, I enjoy weight lifting and reading
+                    interesting things from the set of business, technology,
+                    economics, psychology, politics, and education,
+                    in no particular order.
+                    </p>
+                </div>
+                <div class="homepagePictureBlock">
+                    <img
+                     alt="Ezra Savard"
+                     src="{{site.baseurl}}/media/ezra-archery.jpg"
+                     title="The wild Ezra stalks his prey beneath the hot muskoka sun..."
+                    ></img>
+                </div>
+                <div class="homepageLinksBlock">
+                    {% include navlinks.html %}
+                </div>
+                <div class="postColumn">
+                    {{ content }}
+                </div>
+            </div>
 		</main>
 		<script>
 			$("script[type='math/tex']").replaceWith(function() {
