@@ -1,7 +1,7 @@
 ---
 title: (Self) Control Systems
 date: 2019-02-24
-tags: [misc]
+tags: [philosophy, misc]
 ---
 
 As I've grown less arrogant with age, I've come around to the idea that
@@ -129,15 +129,23 @@ for avoiding real-time decision making. If I choose between burgers and
 salads daily, I will sometimes get burgers. If I get lunch nowhere near a
 burger joint, I will not get burgers. Make it easy.
 
+The same logic applies to avoiding situations that will incentivize me
+to behave in a way that I do not want to. For example, I currently live
+on a university campus and there are too many events that offer free food.
+I know that I typically overeat when around free food, so I choose up-front,
+before delicious pizza smells are involved, to not attend the 
+events I don't particularly care about. As a spoiled software engineer,
+at some point I'll probably have an employer where free food is provided
+every day, and I will have to develop better strategies.
+
 If you are trying to gain weight, reverse all that!
 
 Aside from avoiding real-time decision making, the other
 important piece of a "good enough" system is having a measurement of
 how well it is working.
 
-I have, for the last four years, tracked my food daily
-and it was very effective for losing weight quickly,
-but it was also a lot of work.
+For the last four years I have tracked my food daily.
+It was very effective for losing weight quickly, but it was also a lot of work.
 I recently stopped tracking my food, and instead am using daily
 body-weight measurements to determine whether I am gaining or losing weight.
 This is a much looser control system, since anything less than a month's
