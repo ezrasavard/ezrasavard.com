@@ -1,7 +1,7 @@
 ---
 title:  An Undergrad Summarizes Google's 2015 Paper About Quantum Annealing
 date:   2016-01-16
-tags: [qmc]
+tags: [qmc, technology]
 ---
 
 At the start of my undergraduate research, I was tasked with summarizing Google's 2015 paper [“What is the Computational Value of Finite Range Tunneling?”](https://arxiv.org/abs/1512.02206v3) I'm posting it here in case it proves useful to anyone looking for more introductory material on subject of quantum annealing computers.

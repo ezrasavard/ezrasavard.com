@@ -1,7 +1,7 @@
 ---
 title:  Configuring 16-bit PWM on a Simblee (RFD77101)
 date:   2016-08-01
-tags: [headboard]
+tags: [headboard, projects]
 ---
 
 I was tinkering around with my partner's [LED wake-up light project](http://lisesavard.com/wake-up-light/) and decided to try upgrading her PWM to a super smooth 16-bit version. Her original code used the Arduino analogWrite() method and worked quite well at higher values, but zero to one was a bit of a jump.

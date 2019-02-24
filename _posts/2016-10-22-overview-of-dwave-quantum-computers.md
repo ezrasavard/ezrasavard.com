@@ -1,7 +1,7 @@
 ---
 title: Overview of D-Wave Quantum Computers and Optimization
 date:   2016-10-22
-tags: [qmc]
+tags: [qmc, technology]
 ---
 
 From January until late August of 2016, I pursued undergraduate research on simulating physical quantum annealing. In this post I'm going to give an overview about D-Wave, quantum annealing, heuristic optimization algorithms, and then touch on what I was researching exactly.

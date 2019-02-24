@@ -1,7 +1,7 @@
 ---
 title: (Self) Control Systems
 date: 2019-02-24
-tags: [philosophy, misc]
+tags: [philosophy, finance, fitness]
 ---
 
 As I've grown less arrogant with age, I've come around to the idea that

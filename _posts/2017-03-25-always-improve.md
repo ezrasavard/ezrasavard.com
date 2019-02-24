@@ -1,7 +1,7 @@
 ---
 title: To Always Improve
 date:   2017-03-25
-tags: [misc]
+tags: [philosophy]
 ---
 
 About two years ago I realised that I needed to stop being insecure. When it comes to insecurity, there are a lot of ideas out there like [imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) that I do not personally resonate with. I gave a lot of thought to what it meant to me to feel insecure and came up with a fairly simple pact that sounds a bit dramatic reading it now.
