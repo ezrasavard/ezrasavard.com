@@ -1,7 +1,7 @@
 ---
 title: This Blog is Too Serious!
 date: 2019-02-10
-tags: [misc]
+tags: [misc, meta]
 ---
 
 It's been occurring to me that I don't post on this blog often because I don't
