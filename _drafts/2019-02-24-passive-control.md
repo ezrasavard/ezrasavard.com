@@ -11,57 +11,54 @@ of self-discipline actually benefitted me, rather than making me look like
 a teenager that has just encountered his first Nietzche quote.
 
 A popular narrative of self-control is promoted by Jordan Peterson-esque
-self-help types. They talk about taking responsibility,
+self-help types emphasizes taking responsibility,
 being disciplined, and that being good at life is the result of
 overcoming these obstacles and controlling yourself perfectly in real-time.
-I think of this as "active" self-control. With active self-control,
-I feel like a total badass for not eating
+With this kind of system, I feel like a total badass for not eating
 free cake, and I think that is why it is so seductive. Using this method,
 I feel empowered and in-charge of my own destiny.
-While I like this sentiment in general, it not necessarily _effective_
-for achieving goals.
+But while I personally resonate with this sentiment,
+it not necessarily _effective_ for achieving goals.
 
-My preferred alternative is passive control, which is mostly about
-avoiding real-time decision making.
-When I want to eat free cake, the same delicious, cake-y forces are acting on
+Instead, I now prefer to treat self-control probabalistically, and use
+strategies that help me succeed most of the time. Mostly, it comes down to
+avoiding real-time decision making, because when I want to eat free cake,
+the same delicious, cake-y forces are acting on
 the part of me that wants to lose weight.
-Passive self-control works by making the best decision the easiest one.
+A good system results in achieving my goals by default.
 
 <!-- more -->
 
-## Environmental Pressures and Mental Fatigue
+## Boring Cardio
 
 I find cardio super boring, but really want to improve my heart and
-lung health. To this end, I decided to do 45 minutes of cardio,
-three times per week.
+lung health to improve my odds of living a long and healthy life.
+To this end, I decided to do 45 minutes of cardio three times per week.
 
 I find that I spend the entire time trying to convince myself not to stop.
-I put on podcasts, I watch a clock and tell myself stories like
-"that's 1/4 of the way there, only have to do that three more times,"
-but inevitably I get bored and leave, usually in under 15 minutes.
-As I run out of mental stamina, the decision to stop becomes easier and easier.
+I distract myself with podcasts (partially works)
+and then watch the clock and treat fractions of completion as milestones
+worth pushing for.
+Inevitably I get bored and leave, usually in under 15 minutes, because
+the decision to stop early becomes easier and easier the longer this goes on.
 
 In order to address the mental fatigue problem, I started doing cardio classes
 instead. With this strategy, I only have to get myself to the gym and into
 the class. Once I am there, the social environment makes it easier to stay for
-the entire class than to give up early.
+the entire class than to give up early. I go into a room and do whatever
+this person tells me to for an hour.
 
 It costs me $50/month thanks to an employer subsidy and I consider that a steal.
 If gym class costs were prohibitive, I would have to substitute
 with community-sourced forms of social pressure instead
-e.g. running groups or team sports.
+e.g. running groups or team sports, and that would take more effort.
+
+The success of this system is that I use the bare minimum real-time
+decision making to put myself into an environment where I would have to
+make a significant effort to _avoid_ achieving my goal.
 
 
-## Incentive Alignment and Failure Modes
-
-Systems will (mostly) come into line with their environmental incentives, but
-that also holds true when they've been designed badly.
-One recent example is in the 2018 California wildfires, where the state chose
-to pay cleanup crews by weight for removal of debris.
-Unsurprisingly, debris removal crews removed a lot of material from every
-site they visited. One man returned to find a large hole where his home had
-been, since the cleanup crews had opted to remove
-several meters of nice, heavy dirt beneath the burned out structure.
+## Retirement Savings
 
 A lot of (bad) savings advice follows this general pattern:
 
@@ -71,105 +68,153 @@ per day on a luxury good. That adds up to $1460 per year! Stop buying coffee
 and you'll build up your savings in no-time!
 </blockquote>
 
-Let's take it as a toy example.
+The idea is to resist buying a coffee and then feel good about it.
+This creates a perverse incentive to expose ourselves to the temptation
+of buying coffees in order to resist buying them.
+Further, buying a latte anyway is not a hard decision to arrive at;
+we know that we can continue to save money tomorrow,
+the latte is delicious, we are tired, etc.
+The immediate benefit calculus pits the goodness of the latte against a
+hit of moral superiority.
 
-The incentives is to resist buying a coffee and feel good.
-This translates into exposing ourselves to
-temptation as often as possible, because only then can we resist buying
-the coffee (and getting some of that sweet moral superiority).
-We will have some pretty heavy mental fatigue, and the failure mode is to
-buy a latte and thus not save any money. =\
+I used to do this... and at the end of the month, I'd throw whatever
+balance-above-a-threshold I had in the bank into my savings. Aside from
+taking a lot of effort, it wasn't super effective at actually putting
+significant amounts of money aside because that isn't what it incentivizes.
+I also did spend a lot of time agonizing over whether or not to buy coffees,
+and then feeling crappy when I did.
+A much better system would (1) avoid real-time decision making, and (2)
+actually incentivize putting money away.
 
-Buying a latte is not a hard choice in this model. We know that we can
-continue to save money tomorrow, the latte is delicious, we are tired, etc.
-The immediate benefit calculus pits the latte against a hit of moral
-superiority.
-
-The other problem is that even working perfectly,
-this won't necessarily result in having any money in savings.
-
-A better system would be to set up an automatic transfer for $75 to our
-savings account to occur the day after every payday,
-and then not care whether or not we buy lattes.
-The decision only has to be made once, it results in saving $1460 per year,
-and takes effort to undo. The best decision becomes to do nothing (very easy),
-and we can just forget that the system exists.
+So with the goal of saving $1460 per year, we could set up an automatic
+transfer for $75 to our savings account to occur the day after every payday.
+We only have to make the decision once (in a good state of mind)
+and it results in saving the required amount of money annually.
+Better still, it takes effort (dismantling the system) to screw it up
+and works independently of whether or not I am buying lattes.
 
 Funnily enough, my motivation for writing this post was that I did forget
-that my savings system existed.
-I was feeling bad recently because I haven't actively
-invested any money into my retirement savings in a few months. 
-This is because I have roughly 25% of my salary invested through various
-automatic channels, but since I don't see them, I tend to forget they exist.
+that my savings system existed, and then felt bad about not investing more.
+That in-turn got me thinking about how the self-control narratives
+I enjoy are actually counterproductive to achieving my goals.
+At present, I have 25% of my salary invested through various
+automatic channels, but I don't see the process.
 I should have set out to create this system myself, but instead
 my employer incentivized me to do it through stock discounts and a savings
-matching program.
+matching program. Thanks HR. If enrollment were automatic, this would be
+even better.
 
 
-## Good Enough and Measuring Results
+## Losing Weight
+
+I've gone through periods of deliberate weight-loss a few times in my life,
+once late in my teenage years when I began living on my own, another
+after recovering from a spinal injury, another after leaving a really
+depressing job, and most recently after a bit of over-zealous bulking.
+
+Dieting is pretty hard in general, and it pits our self-control against
+some of the more basic elements of our behavior, and progress only shows
+in the long term. We start every day at zero, and keep (enjoyably)
+adding Calories until the point where we need to stop. If we reach that
+point too early in the day, it is going to be very hard to not eat any more.
+Even worse, our mental stamina is reduced by the deficit we are trying to
+create.
+
+How do we make a system where we don't have to think about our food,
+and where the easiest option is to have a caloric deficit?
+
+A perfect passive system for weight loss would involve never making a
+decision about what or when to eat, and keeping busy enough to not notice.
+One could completely clear their home of all food, sign up for a
+weight loss oriented meal delivery service, and then not take any money
+when going out of the house, but that is a really, really, expensive
+and invasive option.
+Something would have to be done in order to enforce caloric expenditure too;
+maybe [installing a Peloton in the most striking area of your ultra-modern $3 million house](https://twitter.com/ClueHeywood/status/1089702015767179265/photo/1)?
 
 It is internet-law that any self-help blog post must mention
 pareto-optimality, so here we are. It isn't always required for a system
 to be perfect, and most of the time, it takes much, much less effort
-to create a "good enough" system. A good example for this is dieting.
+to create a "good enough" system.
 
-Creating a passive control system for weight loss is really hard. To be
-perfectly effective, you could remove all food from your home, sign up for
-one of those specify-your-calories food delivery services, and then go about
-your business without ever going anywhere. Preferably keeping busy.
-A system like that is both very hard to implement and very expensive.
+What I'm doing now is a slightly worse but drastically cheaper system.
+I make my easiest food decisions into things that are hard to get lots of
+Calories from, make sure daily activities require a lot of walking, and
+then measure progress periodically to make sure it is working.
 
-A slightly worse but drastically cheaper solution is to stock your home
-with foods that are hard to eat lots of calories from, and create a mental
-note to avoid eating out often. Add in using a commute method that requires
-a good amount of walking, and something starts to take shape.  
-If eating out for lunch is your best option, make it a routine to go somewhere
-further away that serves lower calorie filling food. Habit is useful
-for avoiding real-time decision making. If I choose between burgers and
-salads daily, I will sometimes get burgers. If I get lunch nowhere near a
-burger joint, I will not get burgers. Make it easy.
+The closest thing that I've found to an automatic bank transfer for creating
+a caloric deficit is to skip breakfast and walk a lot as part of my commute.
+Your mileage may vary.
 
-The same logic applies to avoiding situations that will incentivize me
-to behave in a way that I do not want to. For example, I currently live
-on a university campus and there are too many events that offer free food.
-I know that I typically overeat when around free food, so I choose up-front,
-before delicious pizza smells are involved, to not attend the 
-events I don't particularly care about. As a spoiled software engineer,
-at some point I'll probably have an employer where free food is provided
-every day, and I will have to develop better strategies.
+At home, I keep a lot of rice cakes, diet pop, and gum lying around. I
+mostly cook eggs and vegetables, and also eat bread. I don't have any
+hyper-palatable snacks or sweets in my house. It isn't that I don't eat sweets,
+but that I want it to require a lot of effort on my part to acquire them
+so that I don't do it often.
 
-If you are trying to gain weight, reverse all that!
+At work can be a bit harder.
+Recently, I decided to stop my long-time habit of bulk cooking my week's
+lunches every weekend and to start just eating out, since the cost is not
+that different, and it frees up a lot of time
+(weight loss is not my main priority). One of the challenges I've had
+with this is avoiding encountering the temptation to eat energy dense foods.
+So far, I'm managing this by (1) getting lunch from places that don't have
+calorically dense foods I like, nor are next-door to places that do,
+(2) by getting lunch from places that are at least 2km away from my work so I
+have to walk more to help offset the generally higher caloric value of
+these foods, and (3) by pushing my lunch a bit later,
+so I usually eat around 2pm instead of noon.
+If I have to make choices between good/bad options daily, I'll sometimes
+end up with the bad options. Better to just avoid considering them.
 
-Aside from avoiding real-time decision making, the other
-important piece of a "good enough" system is having a measurement of
-how well it is working.
+(I actually double-dip on my gym classes here by going to them at noon.
+Locking myself in a room for an hour helps me delay eating, and then cardio
+is a very effective appetite suppressent.)
 
-For the last four years I have tracked my food daily.
-It was very effective for losing weight quickly, but it was also a lot of work.
-I recently stopped tracking my food, and instead am using daily
-body-weight measurements to determine whether I am gaining or losing weight.
-This is a much looser control system, since anything less than a month's
-data is pretty much worthless to draw conclusions from, but it is good enough.
-If I'm not losing weight, I can go back and add more walking
-to my commute.
+Aside from creating a good environment that helps me avoid overeating, I
+also have to make an effort to avoid environments that make it easy to
+overeat. This means that I skip events that offer free
+food, since I almost always overeat in those situations. Because I'm
+a spoiled software engineer, at some point I'm probably going to have to
+face the great peril of an employer offering me free food daily at some
+point. I'll cross that delicious bridge when I come to it.
+
+I used to track all of my food daily, as well as
+my weight, and that was useful for losing weight on a set schedule.
+With that approach, I could lose 1lb/week reliably over several months.
+For long-term passive weight management though,
+I don't think intake tracking is the right approach.
+For the last two months, I only track my body weight.
+I weigh myself every day at the same time and record it, and then
+use a one month trendline to see how things are going. Anything less than a
+month is dominated by water-weight fluctuations.
+So far, I'm losing about 1.5lbs/month on this system, which is slower
+than I'd like, but very, very easy to keep up.
+
+One confounder here is that my years of food intake tracking mean that
+I am pretty accurate in estimating how many calories I'm eating.
+I occasionally track everything just to check, and I'm usually +/- 100 kcal.
+I also mostly trust restaurant nutrition facts, but add 20%
+if the portions are set by a human server.
 
 
 ## Conclusions
 
-When trying to achieve any type of goal, consider yourself fallible and
-design accordingly!
+Whenever I want to achieve a goal, I consider myself fallible and try
+to design accordingly. Principles I try to keep in mind:
 
-1. Reward the actual outcome you want
-2. Automate it if possible
-3. Create or find an environment that incentivizes your goal for you
+1. Minimize opportunities to deviate from the goal
+2. Create or find an environment that makes achieving the goal the easiest choice
+3. Measure the actual desired outcome variable
 
-It is also interesting in retrospect how both of my examples of good
-incentive design have come from my employer.
-I feel that I underappreciated the power of a well designed benefits
-package to basically eliminate two serious problems from my life:
-general fitness and financial health.
-
-Lastly, because active control makes me feel like a badass, and I value
-feeling like a badass, I should continue to use it for a system that
-doesn't have particularly important outcomes. =)
+It is also interesting in retrospect how implicated my employer is in
+all of these systems. Most directly, in the savings case,
+they directly incentivized and designed the system I use.
+In other cases, fitness subsidies and flexible work schedules still play a
+pretty big role. Market rate for my fitness classes would, at a minimum,
+be roughly 6x the price I pay.
+I feel that I have underappreciated the power of a well designed benefits
+package to both incentivize good behaviors and also enable them.
+Given that I worked for a decade without such things, I'm surprised I
+didn't notice it sooner.
 
