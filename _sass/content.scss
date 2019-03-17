@@ -7,6 +7,7 @@ body {
   color: $normal-color;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
+  text-shadow: 1px 1px 2px black;
 }
 
 .homepageTitleBlock {
@@ -15,10 +16,11 @@ body {
         &:focus, {
             border-bottom: none;
         }
-        color: $dark-color;
         font-family: $page-title-font;
         font-size: 9.5vw;
         line-height: 9vw;
+        text-shadow: none;
+        color: $dark-color;
     }
 }
 
@@ -29,20 +31,19 @@ body {
         text-align: left;
     }
     ul {
-      color: $loud-color;
+      color: $normal-color;
     }
     .navlink {
-        color: $loud-color;
         &:hover,
         &:focus, {
-            font-weight: bold;
             color: $highlight-color;
+            border-bottom: none;
         }
     }
 }
 
 .homepageAboutBlock {
-    color: $loud-color;
+    color: $normal-color;
     font-size: 1.5vmax;
 }
 
@@ -62,7 +63,7 @@ body {
     a {
       font-weight: bold;
       font-style: italic;
-      background-color: $highlight-color;
+      color: $highlight-color;
     }
 }
 
@@ -84,17 +85,17 @@ body {
 }
 
 a {
-    color: $link-color;
+    color: $normal-color;
     text-decoration: none;
     &:hover,
     &:focus, {
-        border-bottom: 2px solid $link-color;
+        border-bottom: 2px solid $highlight-color;
     }
 }
 
 
 .title, .pagetitle {
-    color: $dark-color;
+    color: $normal-color;
     font-family: $title-font;
     margin-top: 20px;
     font-size: 36px;
@@ -109,7 +110,7 @@ a {
 
 .date {
     font-family: $subtitle-font;
-    color: $light-color;
+    color: $normal-color;
     font-size: 24px;
     margin-top: 12px;
     margin-bottom: 24px;
@@ -130,7 +131,7 @@ a.footnote:after {
 }
 
 blockquote {
-    border-left: 4px solid $dark-color;
+    border-left: 4px solid $normal-color;
     font-style: italic;
     padding-left: 16px;
     margin-left: 0px;
@@ -143,7 +144,7 @@ code, pre {
 }
 
 .highlighter-rouge, .rouge-table {
-  border-left: 2px solid $dark-color;
+  border-left: 2px solid $normal-color;
   padding-left: 24px;
   margin: 32px 12px;
   td {
@@ -158,11 +159,11 @@ table {
   th {
     text-align: left;
     padding: 8px 10px;
-    border-bottom: 1px solid $dark-color;
+    border-bottom: 1px solid $normal-color;
   }
   td {
     padding: 4px 8px;
-    border-top: 1px dashed $dark-color;
+    border-top: 1px dashed $normal-color;
   }
 }
 
@@ -187,14 +188,14 @@ table {
 h1 {
   font-size: 32px;
   line-height: 32px;
-  color: $dark-color;
+  color: $normal-color;
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
 h2 {
   font-size: 24px;
-  color: $dark-color;
+  color: $normal-color;
   margin-top: 32px;
   margin-bottom: 20px;
 
@@ -203,26 +204,26 @@ h2 {
 h3 {
   font-size: 22px;
   font-weight: 500;
-  color: $dark-color;
+  color: $normal-color;
 }
 
 h4 {
   font-size: 20px;
-  color: $light-color;
+  color: $normal-color;
   font-style: italic;
   font-weight: 400;
 }
 
 h5 {
   font-size: 18px;
-  color: $light-color;
+  color: $normal-color;
   font-style: italic;
   font-weight: 400;
 }
 
 h6 {
   font-size: 16px;
-  color: $light-color;
+  color: $normal-color;
   font-style: italic;
   font-weight: 400;
 }
@@ -234,7 +235,7 @@ h6 {
     &:focus, {
       border-bottom: none;
     }
-    color: $dark-color;
+    color: $normal-color;
     font-family: $title-font;
     margin-top: 20px;
     font-size: 36px;
@@ -243,7 +244,7 @@ h6 {
   }
   .date {
     font-family: $subtitle-font;
-    color: $light-color;
+    color: $normal-color;
     font-size: 24px;
     margin-top: 12px;
     margin-bottom: 24px;
