@@ -35,7 +35,8 @@ body {
         color: $loud-color;
         &:hover,
         &:focus, {
-            border-bottom: 2px solid $loud-color;
+            font-weight: bold;
+            color: $highlight-color;
         }
     }
 }
@@ -255,5 +256,17 @@ h6 {
   .footnotes, a.footnote {
     display: none;
   }
+}
+
+.resume {
+    table {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom:4px;
+    }
+    ul {
+        margin-top: 4px;
+    }
+
 }
 
