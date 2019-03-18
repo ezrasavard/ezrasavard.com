@@ -1,5 +1,4 @@
 body {
-  line-height: 24px;
   font-size: 11pt;
   background-color: $bg-color;
   font-family: $body-font;
@@ -152,21 +151,6 @@ code, pre {
   }
 }
 
-table {
-  table-layout: auto;
-  margin: 24px auto;
-  border-collapse: collapse;
-  th {
-    text-align: left;
-    padding: 8px 10px;
-    border-bottom: 1px solid $normal-color;
-  }
-  td {
-    padding: 4px 8px;
-    border-top: 1px dashed $normal-color;
-  }
-}
-
 .video {
   position: relative;
   display: block;
@@ -259,15 +243,22 @@ h6 {
   }
 }
 
-.resume {
-    table {
-        width: 100%;
-        margin-top: 24px;
-        margin-bottom:4px;
-    }
-    ul {
-        margin-top: 4px;
-    }
+table {
+  width: 100%;
+  table-layout: auto;
+  margin-top: 24px;
+  margin-bottom:12px;
+  padding-bottom: 4px;
+  th, tr {
+    text-align: left;
+    padding-bottom: 4px;
+  }
+  border-bottom: 1px solid $normal-color;
+}
 
+.resume {
+  ul {
+    margin-bottom: 32px;
+  }
 }
 
