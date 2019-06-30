@@ -5,9 +5,9 @@ layout: default
 <article>
 
     {% if page.top-text %}
-        <div class=pagetitle>{{ page.top-text }}</div>
+        <h2>{{ page.top-text }}</h2>
     {% else %}
-        <div class=pagetitle>{{ page.title }}</div>
+        <h2>{{ page.title }}</h2>
     {% endif %}
 
     {{ content }}

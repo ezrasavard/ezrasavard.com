@@ -5,10 +5,7 @@
 $normal-color: ivory;
 $dark-color: #2a2a2a;
 $bg-color: #171717;
-$highlight-color: #ffff00;
-
-/* Dimensions */
-$column-width: 100%;
+$highlight-color: #c00000;
 
 /* Fonts */
 $title-font: 'Oswald', sans-serif;
@@ -17,7 +14,5 @@ $page-title-font: $title-font;
 $page-subtitle-font: $subtitle-font;
 $body-font: 'Open Sans', sans-serif;
 
-@import "layout";
 @import "content";
 @import "syntax";
-

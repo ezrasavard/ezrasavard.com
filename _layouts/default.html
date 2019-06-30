@@ -13,36 +13,22 @@
 	</head>
 	<body>
 		<main>
-            <div class="mahGrid">
-                <div class="homepageTitleBlock">
-                    <a class=title href="{{ site.baseurl }}/">Ezra<br>Savard</a>
-                </div>
-                <div class="homepageAboutBlock">
-                    <p>
-                    I'm a software engineer living in Vancouver, BC.
-                    </p>
-                    <p>
-                    When I'm not working, I can usually be found buried under
-                    a giant backlog of reading, or in the gym. My interests
-                    range over the set of business, technology, ethics,
-                    economics, psychology, politics, science, and education,
-                    in no particular order.
-                    </p>
-                </div>
-                <div class="homepagePictureBlock">
-                    <img
-                     alt="Ezra Savard"
-                     src="{{site.baseurl}}/media/ezra-archery.jpg"
-                     title="The wild Ezra stalks his prey beneath the hot muskoka sun..."
-                    ></img>
-                </div>
-                <div class="homepageLinksBlock">
-                    {% include navlinks.html %}
-                </div>
-                <div class="postColumn">
-                    {{ content }}
-                </div>
-            </div>
+            <a href="{{ site.baseurl }}/"><h1>Ezra<br>Savard</h1></a>
+            <h2>I'm a software engineer living in Vancouver, BC.</h2>
+            <p>
+            When I'm not working, I can usually be found buried under
+            a giant backlog of reading, or in the gym. My interests
+            range over the set of business, technology, ethics,
+            economics, psychology, politics, science, and education,
+            in no particular order.
+            </p>
+            <img
+                alt="Ezra Savard"
+                src="{{site.baseurl}}/media/ezra-archery.jpg"
+                title="The wild Ezra stalks his prey beneath the hot muskoka sun..."
+            ></img>
+            {% include navlinks.html %}
+            {{ content }}
 		</main>
 		<script>
 			$("script[type='math/tex']").replaceWith(function() {

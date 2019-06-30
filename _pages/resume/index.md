@@ -1,17 +1,14 @@
 ---
 title: Resume
 permalink: /resume/
-layout: resume
+layout: page
 ---
-
-# Ezra Savard
 
 Contact: <script>printEmail();</script>
 
 ## Experience
 
-
-| **Microsoft**  | |
+| Microsoft  | |
 | :--- | ---: |
 | _Software Engineer 2 - Office Media Group_ | Jan 2018 - Aug 2018 |
 | :--- | ---: |
@@ -22,7 +19,7 @@ Contact: <script>printEmail();</script>
 
 * Led a team of three to bring Paint 3D up to accessibility standards for 30 million monthly active users
 
-| **Microsoft**  | |
+| Microsoft  | |
 | :--- | ---: |
 | _Software Engineer_ _- Azure Data_ | Jan 2018 - Aug 2018 |
 | :--- | ---: |
@@ -33,7 +30,7 @@ Contact: <script>printEmail();</script>
 
 * Expanded Azure Data Lake HDFS implementation to allow telemetry data to map to individual Spark jobs
 
-| **Global Relay** | |
+| Global Relay | |
 | :--- | ---: |
 | _Junior Software Developer_  | Jan 2017 - Dec 2017 |
 | :--- | ---: |
@@ -42,7 +39,7 @@ Contact: <script>printEmail();</script>
 
 * Developed new Ansible based tooling to expand performance testing capabilties
 
-| **Aspect Biosystems** | |
+| Aspect Biosystems | |
 | :--- | ---: |
 | _Engineering Intern_  | Jan 2016 - Jul 2016 |
 | :--- | ---: |
@@ -51,14 +48,14 @@ Contact: <script>printEmail();</script>
 
 * Diverse work included systems engineering, toolchain and version control strategy selection, and lab experimentation
 
-| **Ericsson** | |
+| Ericsson | |
 | :--- | ---: |
 | _Software Engineering Intern_  | Jan 2015 - Dec 2015 |
 | :--- | ---: |
 
 * Won _Intern of the Month_ out of 60+ Ericsson Silicon Valley interns for development of an OpenStack Neutron plugin with Python for Ericsson Virtual Routers that enabled modular deployment across several compute nodes
 
-| **Xilinx** | |
+| Xilinx | |
 | :--- | ---: |
 | _System Software Engineering Intern_  | Jun 2014 - Dec 2014 |
 | :--- | ---: |
@@ -69,7 +66,7 @@ Contact: <script>printEmail();</script>
 ## Education
 
 
-| **University of British Columbia** | 2016 |
+| University of British Columbia | 2016 |
 | :--- | ---: |
 | _B.A.Sc. Electrical Engineering, with Distinction_ | _GPA: 87%_ |
 
@@ -77,13 +74,13 @@ Contact: <script>printEmail();</script>
 
 ## Projects
 
-| **Quantum Monte Carlo for Quantum-dot Cellular Automata** | [github.com/ezrasavard/qmc](https://github.com/ezrasavard/qmc)  |
+| Quantum Monte Carlo for Quantum-dot Cellular Automata | [github.com/ezrasavard/qmc](https://github.com/ezrasavard/qmc)  |
 | :--- | ---: |
 | _Undergraduate Research with UBC's Microsystems and Nanotechnology group_ | |
 
 - Developed a quantum monte carlo model of quantum annealing circuits in partnership with D-Wave Systems
 
-| **Software Defined Networking for Internet-of-Things** | [Video: youtu.be/BoRFKCIuI2A](https://youtu.be/BoRFKCIuI2A)  |
+| Software Defined Networking for Internet-of-Things | [Video: youtu.be/BoRFKCIuI2A](https://youtu.be/BoRFKCIuI2A)  |
 | :--- | ---: |
 | _Capstone Project_ | |
 
