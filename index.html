@@ -5,21 +5,25 @@ layout: default
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      <h2>{{ post.title }}</h2>
-    </a>
-    <h3>{{ post.date | date_to_string }}</h3>
+  <article>
+    <header>
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2>{{ post.title }}</h2>
+      </a>
+      <time>{{ post.date | date_to_string }}</time>
+    </header>
     {% if post.excerpt %}
       {{ post.excerpt }}
       {% if post.excerpt != post.content %}
           <a href="{{ post.url | prepend: site.baseurl }}">- Read more -</a>
       {% endif %}
     {% endif %}
+  </article>
 {% endfor %}
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-<div class=pagination>
+<nav>
   {% if paginator.previous_page %}
     <span><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></span>
   {% else %}
@@ -41,5 +45,5 @@ layout: default
   {% else %}
     <span>&raquo;</span>
   {% endif %}
-</div>
+</nav>
 {% endif %}

@@ -12,7 +12,7 @@
         {% endif %}
 	</head>
 	<body>
-		<main>
+        <header>
             <a href="{{ site.baseurl }}/"><h1>Ezra<br>Savard</h1></a>
             <h2>I'm a software engineer living in Vancouver, BC.</h2>
             <p>
@@ -27,7 +27,11 @@
                 src="{{site.baseurl}}/media/ezra-archery.jpg"
                 title="The wild Ezra stalks his prey beneath the hot muskoka sun..."
             ></img>
+        </header>
+        <aside>
             {% include navlinks.html %}
+        </aside>
+		<main>
             {{ content }}
 		</main>
 		<script>

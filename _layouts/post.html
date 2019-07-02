@@ -3,9 +3,10 @@ layout: default
 ---
 
 <article>
-    <h2>{{ page.title }}</h2>
-    <h3>{{ page.date | date_to_string }}</h3>
-    
+    <header>
+        <h2>{{ page.title }}</h2>
+        <time>{{ page.date | date_to_string }}</time>
+    </header>
     {{ content }}
     
     <!-- related posts, by tags -->
@@ -25,7 +26,9 @@ layout: default
     {% endfor %}
     
     {% if related_list %}
+    <nav>
         <h2>Related Posts:</h2>
         <ul>{{ related_list | split: ";" | uniq | join: ""}}</ul>
+    </nav>
     {% endif %}
 </article>
