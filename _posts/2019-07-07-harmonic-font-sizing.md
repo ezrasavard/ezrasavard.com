@@ -19,5 +19,7 @@ posterity.
     title="image of website at the time of writing"
 />
 
-I also added a basic CSS demo page to make it easy to see what the current CSS looks like, but
-I won't be archiving versions of it. The live version can be found here: [CSS test page]({{site.baseurl}}/css-test).
+I also added a [basic CSS demo page]({{site.baseurl}}/css-test) to make it easy to see what the current CSS looks like, but
+I won't be archiving versions of it.
+
+Credit to Scott Granneman for the copy/paste from [his website](https://www.granneman.com/webdev/coding/htmlcsstestpage).
