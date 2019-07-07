@@ -1,5 +1,5 @@
 :root {
-  --ratio: 1.3;
+  --ratio: 1.4;
   --s-5: calc(var(--s-4) / var(--ratio));
   --s-4: calc(var(--s-3) / var(--ratio));
   --s-3: calc(var(--s-2) / var(--ratio));
@@ -14,7 +14,7 @@
 }
 
 h1 {
-  font-size: var(--s5);
+  font-size: var(--s4);
 }
 
 h2 {
