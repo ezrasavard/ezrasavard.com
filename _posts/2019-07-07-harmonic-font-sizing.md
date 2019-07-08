@@ -10,8 +10,10 @@ which has been really helpful in learning the basics. Their approach heavily emp
 browser layout algorithms and avoiding extreme specificity.
 
 This post's style improvement was to add in harmonic font sizing, based on Every Layout's
-[modular scale post](https://every-layout.dev/rudiments/modular-scale/). Here is a photo, for
-posterity.
+[modular scale post](https://every-layout.dev/rudiments/modular-scale/). Here is a photo
+after the break, for posterity.
+
+<!--more-->
 
 <img
     alt="CSS test page with modular scale"
