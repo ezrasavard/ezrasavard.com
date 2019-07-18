@@ -14,26 +14,30 @@
 	<body>
         <header>
             <a href="{{ site.baseurl }}/"><h1>Ezra Savard</h1></a>
-            <h2>I'm a software engineer living in Vancouver, BC.</h2>
-            <p>
-            When I'm not working, I can usually be found buried under
-            a giant backlog of reading, or in the gym. My interests
-            range over the set of business, technology, ethics,
-            economics, psychology, politics, science, and education,
-            in no particular order.
-            </p>
-            <img
-                alt="Ezra Savard"
-                src="{{site.baseurl}}/media/ezra-archery.jpg"
-                title="The wild Ezra stalks his prey beneath the hot muskoka sun..."
-            ></img>
         </header>
-        <aside>
-            {% include navlinks.html %}
-        </aside>
-		<main>
-            {{ content }}
-		</main>
+        <div id="with-sidebar">
+            <div id="gutter-making-wrapper">
+                <aside>
+                    <p>I'm a software engineer living in Vancouver, BC.</p>
+                    <img
+                        alt="Photo of Ezra at a cottage as a child, in swim trunks and body-paint, holding a bow"
+                        src="{{site.baseurl}}/media/ezra-archery.jpg"
+                        title="The wild Ezra stalks his prey beneath the hot muskoka sun..."
+                    ></img>
+                    <p>
+                        When I'm not working, I can usually be found buried under
+                        a giant backlog of reading, or in the gym. My interests
+                        range over the set of business, technology, ethics,
+                        economics, psychology, politics, science, and education,
+                        in no particular order.
+                    </p>
+                    {% include navlinks.html %}
+                </aside>
+                <main>
+                    {{ content }}
+                </main>
+            </div>
+        </div>
 		<script>
 			$("script[type='math/tex']").replaceWith(function() {
 				var tex = $(this).text();
