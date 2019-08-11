@@ -6,7 +6,7 @@ layout: page
 
 Contact: <script>printEmail();</script>
 
-## Experience
+### Experience
 
 | Microsoft  | |
 | :--- | ---: |
@@ -63,7 +63,7 @@ Contact: <script>printEmail();</script>
 * Linux bring-up and development for the Zynq SoC including power consumption profiling, baremetal C demo applications, driver modifications, single-stage boot, and Yocto-based image builds
 
 
-## Education
+### Education
 
 
 | University of British Columbia | 2016 |
@@ -72,7 +72,7 @@ Contact: <script>printEmail();</script>
 
 
 
-## Projects
+### Projects
 
 | Quantum Monte Carlo for Quantum-dot Cellular Automata | [github.com/ezrasavard/qmc](https://github.com/ezrasavard/qmc)  |
 | :--- | ---: |
@@ -80,7 +80,7 @@ Contact: <script>printEmail();</script>
 
 - Developed a quantum monte carlo model of quantum annealing circuits in partnership with D-Wave Systems
 
-| Software Defined Networking for Internet-of-Things | [Video: youtu.be/BoRFKCIuI2A](https://youtu.be/BoRFKCIuI2A)  |
+| Software Defined Networking for Internet-of-Things | [youtu.be/BoRFKCIuI2A](https://youtu.be/BoRFKCIuI2A)  |
 | :--- | ---: |
 | _Capstone Project_ | |
 
