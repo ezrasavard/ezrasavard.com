@@ -10,7 +10,7 @@ Contact: <script>printEmail();</script>
 
 | Microsoft  | |
 | :--- | ---: |
-| _Software Engineer 2 - Office Media Group_ | Jan 2018 - Aug 2018 |
+| _Software Engineer 2 - Office Media Group_ | Sep 2018 - Current |
 | :--- | ---: |
 
 * Created a performant embed experience for streaming encrypted video across MS Office and Sharepoint
