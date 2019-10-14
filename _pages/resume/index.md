@@ -8,9 +8,15 @@ Contact: <script>printEmail();</script>
 
 ### Experience
 
+| Stripe | |
+| :--- | ---: |
+| _Software Engineer_ | Oct 2019 - Current |
+
+* We'll see!
+
 | Microsoft  | |
 | :--- | ---: |
-| _Software Engineer 2 - Office Media Group_ | Sep 2018 - Current |
+| _Software Engineer 2 - Office Media Group_ | Sep 2018 - Oct 2019 |
 | :--- | ---: |
 
 * Created a performant embed experience for streaming encrypted video across MS Office and Sharepoint
