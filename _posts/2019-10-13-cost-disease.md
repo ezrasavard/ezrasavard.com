@@ -33,7 +33,7 @@ I'm probably not the first person to suggest it, but I haven't seen it yet in my
 so I get to feel original.
 
 **I totally missed that [Robin Hanson wrote a response to Tabarrok's book](https://www.overcomingbias.com/2019/06/our-prestige-obsession.html),
-putting forward this very idea, but I'm still going to go ahead and post this piece without major edits.**
+putting forward the same idea, but I'm still going to go ahead and post this piece without major edits.**
 
 - Spending into healthcare is uncapped because we don't want to die prematurely (or at all) or
 to suffer from conditions we can partially mitigate
