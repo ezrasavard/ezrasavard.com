@@ -8,17 +8,21 @@ tags: [finance, philosophy]
 I probably read this while link hopping from [Tyler Cowen's blog](https://marginalrevolution.com/about)
 but I can no longer find a source. It was something like:
 
-> Money is one of many systems for allocating resources. Others include queuing, and violence.
+> Money is one of many systems for allocating resources. Others include queuing and violence.
 
 This idea has really stuck with me and changed how I think about things like
-toll roads, housing costs, and disaster response. Also a lot about the ideas
-of efficiency and fairness. Money is most efficient if everyone has the same
-amount to spend, and both queuing and lotteries are very fair, but terribly
-inefficient because nobody can outbid to signal greater need.
+toll roads, housing costs, and disaster response. It has also
+impacted how I think about the idea of fairness.
+Money is very fair if everyone has the same amount to spend, but if someone
+has much more, then their least important wants can trample over
+the severe needs of those who have less.
+Meanwhile both queuing and lotteries put everyone on equal footing, but
+then fail at fairness because there is no outbidding mechanism to 
+signal greater need.
 
-I think we build resource allocation systems to balance our own ideas of
-efficiency and fairness.
-And when trying to acquire a resource, we prefer whatever mixture that gives us
+I think we build resource allocation systems to mirror our own sense of
+fairness.
+And when trying to acquire a resource, we prefer whatever mix gives us
 the best chance of winning. The popular restaurant is a great example to think on.
 * Long lines
 * High prices
