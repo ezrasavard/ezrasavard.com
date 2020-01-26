@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is Money?
+date: 2020-01-26 14:33:03 -0700
 tags: [finance, philosophy]
 ---
 
