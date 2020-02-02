@@ -4,8 +4,6 @@ permalink: /resume/
 layout: page
 ---
 
-Contact: <script>printEmail();</script>
-
 ### Experience
 
 | Stripe | |
