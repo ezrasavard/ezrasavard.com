@@ -15,40 +15,9 @@
         <header>
             <a href="{{ site.baseurl }}/"><h1>Ezra Savard</h1></a>
         </header>
-        <div id="with-sidebar">
-            <div id="gutter-making-wrapper">
-                <aside>
-                    <p>I'm a software engineer who reads a lot.</p>
-                    <img
-                        alt="Photo of Ezra at a cottage as a child, in swim trunks and body-paint, holding a bow"
-                        src="{{site.baseurl}}/media/ezra-archery.jpg"
-                        title="The wild Ezra stalks his prey beneath the hot Muskoka sun..."
-                    ></img>
-                    <p>
-                        When I'm not working, I can usually be found buried under
-                        a giant backlog of reading or trying to keep active. My interests
-                        range over the set of business, technology, ethics,
-                        economics, psychology, politics, science, and education,
-                        in no particular order. The goal is to better understand the world
-                        around me.
-                    </p>
-                    {% include navlinks.html %}
-                </aside>
-                <main>
-                    {{ content }}
-                </main>
-            </div>
-        </div>
-		<script>
-			$("script[type='math/tex']").replaceWith(function() {
-				var tex = $(this).text();
-				return katex.renderToString(tex, {displayMode: false});
-			});
-			$("script[type='math/tex; mode=display']").replaceWith(function() {
-				var tex = $(this).html();
-				return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
-			});
-		  </script>
+        <main>
+            {{ content }}
+        </main>
 	</body>
 </html>
 
